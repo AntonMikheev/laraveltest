@@ -14,19 +14,36 @@
 Route::get('/', function() {
     return View::make('hello');
 });
-Route::get('some', function() {
-    return View::make('some');
+Route::get('news', 'NewsController@news');
+Route::get('heading', 'HeadingController@heading');
+Route::get('reviews', 'ReviewsController@reviews');
+Route::get('tags', 'TagsController@tags');
+Route::get('deletenews', 'NewsController@delete');
+Route::get('add-news', 'NewsController@viewFormAddNews');
+Route::post('add-news', 'NewsController@addNews');
+Route::get('edit-news', 'NewsController@viewFormEditNews');
+Route::post('edit-news', 'NewsController@editNews');
+
+
+//
+//Route::model('news', 'News');
+//
+//Route::get('one-news/{news}', function(News $news){
+//    return NewsController::getViewsOneNews($news);
+//});
+
+
+
+Route::model('news', 'News');   
+Route::get('deletenews/{news}', function (News $news) {    
+    //print_r($news);
+    return NewsController::delete($news);
 });
-Route::get('test1', function() {
-    return View::make('test1');
+
+Route::get('edit-news/{news}', function(News $news) {
+    return NewsController::viewFormEditNews($news); 
+}); 
+Route::post('edit-news/{news}', function (News $news){
+    return NewsController::editNews($news);
+    
 });
-Route::get('news', function() {
-    return View::make('News');
-});
-Route::get('infoedit', function() {
-    return View::make('InfoEdit');
-});
-Route::get('infoadd', function() {
-    return View::make('InfoAdd');
-});
-Route::get('news2', 'NewsController@news'); 
