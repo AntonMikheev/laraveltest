@@ -9,14 +9,17 @@ class NewsController extends BaseController {
 
     public static function viewFormEditNews($news) {
         //var_dump($news->heading_id);
-        $type = array('name' => $news->name, 
-                      'heading_id' => $news->heading_id,
-                      'text' => $news->text,
-                      'id' => $news->id,
-                      'author' => $news->author,
-                        );
+        $type = array('name' => $news->name,
+            'heading_id' => $news->heading_id,
+            'text' => $news->text,
+            'id' => $news->id,
+            'author' => $news->author,
+            'tags2' => $news->tags,
+            'revs2' => $news->rev,
+        );
         return View::make('formEditNews', $type);
     }
+
     public static function editNews($news) {
         $name = Input::get('name');
         $heading = Input::get('heading');
@@ -24,17 +27,24 @@ class NewsController extends BaseController {
         $author = Input::get('author');
         $tags = Input::get('tags');
         $reviews = Input::get('reviews');
-        
+
         $model = News::find($news->id);
         $model->name = $name;
         $model->heading_id = $heading;
         $model->text = $text;
         $model->author = $author;
-//        $model = Input::get('tags');
-//        $model = Input::get('reviews');
-        
+//        try {
+            foreach ($tags as $tag) {
+                Tags::find($tag)->news()->save($model);
+            }
+//        } catch (Exception $e) {
+//            echo "Test error";
+//        }
+        foreach ($reviews as $rev){
+        Reviews::find($rev)->news()->save($model);
+        }
         $model->save();
-        $url = 'edit-news/' .$model->id;
+        $url = 'edit-news/' . $model->id;
         return Redirect::to($url);
     }
 
@@ -52,6 +62,7 @@ class NewsController extends BaseController {
     public function viewFormAddNews() {
         return View::make('formAddNews');
     }
+
     public function addNews() {
         $name = Input::get('name');
         $heading = Input::get('heading');
@@ -59,20 +70,26 @@ class NewsController extends BaseController {
         $author = Input::get('author');
         $tags = Input::get('tags');
         $reviews = Input::get('reviews');
-        
+
         $model = new News;
         $model->name = $name;
         $model->heading_id = $heading;
         $model->text = $text;
         $model->author = $author;
-//        $model = Input::get('tags');
-//        $model = Input::get('reviews');
-        
         $model->save();
+        foreach ($tags as $tag) {
+            Tags::find($tag)->news()->save($model);
+        }
+        foreach ($reviews as $rev) {
+            Reviews::find($rev)->news()->save($model);
+        }
+//        $model->tags()->insert($tag);
+        //$model->tags()->save($tag);
+//        $new = News::find(1);
+//        $model->$new->tags();
+//        $model = Input::get('reviews');
 //        $url = 'edit-news/' .$model->id;
         return Redirect::to('news');
     }
-
-    
 
 }
