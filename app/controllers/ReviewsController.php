@@ -2,14 +2,9 @@
 
 class ReviewsController extends BaseController {
 
-//    public $revErrors = array(
-//        '404' => 'not found',
-//    );
-
-
     public function apiReviews($id) {
         $reviewsfind = Reviews::find($id);
-        if ($reviewsfind !== NULL) {
+        if (!empty($reviewsfind)) {
             return Response::json($reviewsfind);
         } else {
             return 'Review not exist';
@@ -18,7 +13,7 @@ class ReviewsController extends BaseController {
 
     public function apiDelReviews($id) {
         $reviewsfind = Reviews::find($id);
-        if ($reviewsfind !== NULL) {
+        if (!empty($reviewsfind)) {
             $reviewsfind->delete();
             $mass = array(
                 'success' => true,
@@ -35,7 +30,100 @@ class ReviewsController extends BaseController {
     }
 
     public function apiAddReviews() {
-        
+
+
+//        if (!empty($input)) {
+//            $tags = Input::get('tags');
+//            var_dump($tags);
+//            die();
+
+            $name = Input::json('name');
+            $heading = Input::json('heading_id');
+            $text = Input::json('text');
+            $author = Input::json('author');
+            $tags = Input::json('tags');
+            $news = Input::json('news');
+
+            $review = new Reviews;
+            $review->name = $name;
+            $review->heading_id = $heading;
+            $review->text = $text;
+            $review->author = $author;
+            $review->save();
+            DB::transaction(function () use ($tags, $news, $review) {
+                if (!empty($tags)) {
+//                 foreach ($tags as $tag) {
+                    Tags::find($tags)->reviews()->save($review);
+//                 }
+                }
+                if (!empty($news)) {
+//                    foreach ($news as $new) {
+                    News::find($news)->reviews()->save($review);
+//                    }
+                }
+            });
+            $mass = array(
+                'success' => true,
+                'message' => 'Added'
+            );
+            return Response::json($mass);
+//        } else {
+//            $mass = array(
+//                'success' => FALSE,
+//                'message' => 'Not delete!'
+//            );
+//            return Response::json($mass);
+//        }
+    }
+
+    public function apiEditReviews() {
+
+        $input = Input::json();
+        $id = Input::get('id');
+        $review = Reviews::find($id);
+//          print_r($model);
+//          die;
+//            $tags = Input::get('tags');
+//            var_dump($tags);
+//            die();
+
+        $name = Input::json('name');
+        $heading = Input::json('heading_id');
+        $text = Input::json('text');
+        $author = Input::json('author');
+        $tags = Input::json('tags');
+        $news = Input::json('news');
+
+
+        $review->name = $name;
+        $review->heading_id = $heading;
+        $review->text = $text;
+        $review->author = $author;
+        $review->save();
+        DB::transaction(function () use ($tags, $news, $review) {
+            if (!empty($tags)) {
+//                 foreach ($tags as $tag) {
+                Tags::find($tags)->reviews()->save($review);
+//                 }
+            }
+            if (!empty($news)) {
+//                    foreach ($news as $new) {
+                News::find($news)->reviews()->save($review);
+//                    }
+            }
+        });
+        $mass = array(
+            'success' => true,
+            'message' => 'Added'
+        );
+        return Response::json($mass);
+    }
+
+    public function findByText() {
+        $review = Reviews::where('name', 'like', '%'.Input::json('text').'%')->get(array('id'));
+        foreach ($review as $rev){
+            return Reviews::find($rev);
+        }
     }
 
     public function reviews() {
@@ -140,11 +228,16 @@ class ReviewsController extends BaseController {
         $model->author = $author;
         DB::transaction(function () use ($model, $tags, $news) {
             $model->save();
-            foreach ($tags as $tag) {
-                Tags::find($tag)->reviews()->save($model);
+            if (!empty($tags)) {
+                foreach ($tags as $tag) {
+                    Tags::find($tag)->reviews()->save($model);
+                }
             }
-            foreach ($news as $new) {
-                News::find($new)->reviews()->save($model);
+
+            if (!empty($news)) {
+                foreach ($news as $new) {
+                    News::find($new)->reviews()->save($model);
+                }
             }
         });
         return Redirect::route('viewreviews');

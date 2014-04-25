@@ -30,6 +30,9 @@ Route::get('editreviews/{reviews}', array( 'as' => 'editdatreviews', 'uses' => '
 Route::post('edit-reviews/{reviews}', array( 'as' => 'editreviews', 'uses' => 'ReviewsController@editReviews'));
 
 Route::get('api.laraveltest/reviews/{id}',array('as' => 'api.reviews', 'uses' => 'ReviewsController@apiReviews'));
-Route::post('api.laraveltest/findreview/{text}', array('as'=> 'api.findreviews', 'uses' =>'ReviewsController@apiFindReviews'));
+Route::post('api.laraveltest/findreview', array('as'=> 'api.findreviews', 'uses' =>'ReviewsController@apiFindReviews'));
 Route::delete('api.laraveltest/reviewsdel/{id}',array('as' => 'api.reviews.del', 'uses' => 'ReviewsController@apiDelReviews'));
-Route::post('api.addreviews', array('as' => 'api.reviews.add', 'uses' => 'ReviewsController@apiAddReviews'));
+Route::post('api.laraveltest/addreviews', array('as' => 'api.reviews.add', 'uses' => 'ReviewsController@apiAddReviews'));
+Route::post('api.laraveltest/findbytext', array('as' => 'api.reviews.findbytext', 'uses' => 'ReviewsController@findByText'));
+Route::put('api.laraveltest/editreviews', array('as' => 'api.reviews.edit', 'uses' => 'ReviewsController@apiEditReviews'));
+
