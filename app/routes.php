@@ -11,39 +11,25 @@
   |
  */
 
-Route::get('/', function() {
-    return View::make('hello');
-});
-Route::get('news', 'NewsController@news');
-Route::get('heading', 'HeadingController@heading');
-Route::get('reviews', 'ReviewsController@reviews');
-Route::get('tags', 'TagsController@tags');
-Route::get('deletenews', 'NewsController@delete');
-Route::get('add-news', 'NewsController@viewFormAddNews');
-Route::post('add-news', 'NewsController@addNews');
-Route::get('edit-news', 'NewsController@viewFormEditNews');
-Route::post('edit-news', 'NewsController@editNews');
-
-
-//
-//Route::model('news', 'News');
-//
-//Route::get('one-news/{news}', function(News $news){
-//    return NewsController::getViewsOneNews($news);
-//});
-
-
-
+Route::get('/', array('as' => 'home', 'uses' => 'HomeController@showWelcome'));
 Route::model('news', 'News');   
-Route::get('deletenews/{news}', function (News $news) {    
-    //print_r($news);
-    return NewsController::delete($news);
-});
+Route::get('news', array( 'as' => 'viewnews', 'uses' => 'NewsController@news'));
+Route::get('heading', array( 'as' => 'viewheading', 'uses' => 'HeadingController@heading'));
+Route::get('reviews', array('as' => 'viewreviews', 'uses' => 'ReviewsController@reviews'));
+Route::get('tags', array('as' => 'viewtags', 'uses' => 'TagsController@tags'));
+Route::get('deletenews/{news}', array('as' => 'delnews', 'uses' => 'NewsController@delete'));
+Route::get('addnews', array('as' => 'add-news', 'uses' => 'NewsController@viewFormAddNews'));
+Route::post('addnews', array('as' => 'add-news', 'uses' => 'NewsController@addNews'));
+Route::get('editnews/{news}', array( 'as' => 'editdatnews', 'uses' => 'NewsController@viewFormEditNews')); 
+Route::post('edit-news/{news}', array( 'as' => 'editnews', 'uses' => 'NewsController@editNews'));
+Route::model('reviews', 'Reviews'); 
+Route::get('deletereviews/{reviews}', array('as' => 'delreviews', 'uses' => 'ReviewsController@delete'));
+Route::get('addreviews', array('as' => 'add-reviews', 'uses' => 'ReviewsController@viewFormAddReviews'));
+Route::post('addreviews', array('as' => 'add-reviews', 'uses' => 'ReviewsController@addReviews'));
+Route::get('editreviews/{reviews}', array( 'as' => 'editdatreviews', 'uses' => 'ReviewsController@viewFormEditReviews')); 
+Route::post('edit-reviews/{reviews}', array( 'as' => 'editreviews', 'uses' => 'ReviewsController@editReviews'));
 
-Route::get('edit-news/{news}', function(News $news) {
-    return NewsController::viewFormEditNews($news); 
-}); 
-Route::post('edit-news/{news}', function (News $news){
-    return NewsController::editNews($news);
-    
-});
+Route::get('api.laraveltest/reviews/{id}',array('as' => 'api.reviews', 'uses' => 'ReviewsController@apiReviews'));
+Route::post('api.laraveltest/findreview/{text}', array('as'=> 'api.findreviews', 'uses' =>'ReviewsController@apiFindReviews'));
+Route::delete('api.laraveltest/reviewsdel/{id}',array('as' => 'api.reviews.del', 'uses' => 'ReviewsController@apiDelReviews'));
+Route::post('api.addreviews', array('as' => 'api.reviews.add', 'uses' => 'ReviewsController@apiAddReviews'));

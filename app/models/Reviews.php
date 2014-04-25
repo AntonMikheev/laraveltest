@@ -9,5 +9,8 @@ class Reviews extends Eloquent  {
     public function news() {
         return $this->belongsToMany('News', 'news_reviews_con');
     }
+    public function tags() {
+        return $this->belongsToMany('Tags', 'rev_tags');
+    }
 	
 }

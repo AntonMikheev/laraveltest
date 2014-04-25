@@ -9,4 +9,7 @@ class Tags extends Eloquent  {
 	public function news() {
         return $this->belongsToMany('News', 'news_tags');
     }
+	public function reviews() {
+        return $this->belongsToMany('Reviews', 'rev_tags');
+    }
 }
