@@ -37,36 +37,36 @@ class ReviewsController extends BaseController {
 //            var_dump($tags);
 //            die();
 
-            $name = Input::json('name');
-            $heading = Input::json('heading_id');
-            $text = Input::json('text');
-            $author = Input::json('author');
-            $tags = Input::json('tags');
-            $news = Input::json('news');
+        $name = Input::json('name');
+        $heading = Input::json('heading_id');
+        $text = Input::json('text');
+        $author = Input::json('author');
+        $tags = Input::json('tags');
+        $news = Input::json('news');
 
-            $review = new Reviews;
-            $review->name = $name;
-            $review->heading_id = $heading;
-            $review->text = $text;
-            $review->author = $author;
-            $review->save();
-            DB::transaction(function () use ($tags, $news, $review) {
-                if (!empty($tags)) {
+        $review = new Reviews;
+        $review->name = $name;
+        $review->heading_id = $heading;
+        $review->text = $text;
+        $review->author = $author;
+        $review->save();
+        DB::transaction(function () use ($tags, $news, $review) {
+            if (!empty($tags)) {
 //                 foreach ($tags as $tag) {
-                    Tags::find($tags)->reviews()->save($review);
+                Tags::find($tags)->reviews()->save($review);
 //                 }
-                }
-                if (!empty($news)) {
+            }
+            if (!empty($news)) {
 //                    foreach ($news as $new) {
-                    News::find($news)->reviews()->save($review);
+                News::find($news)->reviews()->save($review);
 //                    }
-                }
-            });
-            $mass = array(
-                'success' => true,
-                'message' => 'Added'
-            );
-            return Response::json($mass);
+            }
+        });
+        $mass = array(
+            'success' => true,
+            'message' => 'Added'
+        );
+        return Response::json($mass);
 //        } else {
 //            $mass = array(
 //                'success' => FALSE,
@@ -120,9 +120,36 @@ class ReviewsController extends BaseController {
     }
 
     public function findByText() {
-        $review = Reviews::where('name', 'like', '%'.Input::json('text').'%')->get(array('id'));
-        foreach ($review as $rev){
-            return Reviews::find($rev);
+        $review = Reviews::where('name', 'like', '%' . Input::json('data') . '%')->get(array('id'));
+//        return $review;
+//        die;
+        foreach ($review as $id) {
+            $rev_mass = Reviews::find($id->id);
+//            var_dump($rev_mass);
+
+            $a[] = ['id' => $rev_mass->id,
+                'name' => $rev_mass->name,
+                'heading_id' => $rev_mass->heading_id,
+                'text' => $rev_mass->text,
+                'author' => $rev_mass->author,
+                'news' => $rev_mass->news,
+                'tags' => $rev_mass->tags,
+            ];
+//           $stack = array();
+//           array_push($stack, $rev_mass);
+//           var_dump($stack);
+        }
+        return Response::json($a);
+    }
+
+    public function findByTag() {
+        $tag = Tags::where('name', 'like', '%' . Input::json('data') . '%')->get(array('id'));
+//        return $tag;die;
+        $rev_tags = Tags::find($tag->id)->reviews();
+        return $rev_tags->reviews_id;die;
+        foreach ($tag as $id){
+        $rev_tags = Tags::find($id->id)->reviews();
+        return $rev_tags->reviews_id;
         }
     }
 
@@ -169,20 +196,35 @@ class ReviewsController extends BaseController {
         $tags = Input::get('tags');
         $news = Input::get('news');
 
-        $model = Reviews::find($reviews->id);
-        $model->name = $name;
-        $model->heading_id = $heading;
-        $model->text = $text;
-        $model->author = $author;
+        $input = Input::all();
+        $rules = array(
+            'name' => 'required|alpha_num',
+            'heading_id' => 'num',
+            'text' => 'required|alpha_num',
+            'author' => 'required|alpha_num',
+            'tags' => 'num',
+            'news' => 'num',
+        );
+        $validation = Validator::make($input, $rules);
 
-        foreach ($tags as $tag) {
-            Tags::find($tag)->reviews()->save($model);
+        if ($validation->fails()) {
+            return Redirect::back()->withErrors($key);
+        } else {
+
+            $model = Reviews::find($reviews->id);
+            $model->name = $name;
+            $model->heading_id = $heading;
+            $model->text = $text;
+            $model->author = $author;
+            foreach ($tags as $tag) {
+                Tags::find($tag)->reviews()->save($model);
+            }
+            foreach ($news as $new) {
+                News::find($new)->reviews()->save($model);
+            }
+            $model->save();
+            return Redirect::route('viewreviews');
         }
-        foreach ($news as $new) {
-            News::find($new)->reviews()->save($model);
-        }
-        $model->save();
-        return Redirect::route('viewreviews');
     }
 
     public function delete($reviews) {

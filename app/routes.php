@@ -33,6 +33,7 @@ Route::get('api.laraveltest/reviews/{id}',array('as' => 'api.reviews', 'uses' =>
 Route::post('api.laraveltest/findreview', array('as'=> 'api.findreviews', 'uses' =>'ReviewsController@apiFindReviews'));
 Route::delete('api.laraveltest/reviewsdel/{id}',array('as' => 'api.reviews.del', 'uses' => 'ReviewsController@apiDelReviews'));
 Route::post('api.laraveltest/addreviews', array('as' => 'api.reviews.add', 'uses' => 'ReviewsController@apiAddReviews'));
-Route::post('api.laraveltest/findbytext', array('as' => 'api.reviews.findbytext', 'uses' => 'ReviewsController@findByText'));
 Route::put('api.laraveltest/editreviews', array('as' => 'api.reviews.edit', 'uses' => 'ReviewsController@apiEditReviews'));
+Route::post('api.laraveltest/findbytext', array('as' => 'api.reviews.findbytext', 'uses' => 'ReviewsController@findByText'));
+Route::post('api.laraveltest/findbytag', array('as' => 'api.reviews.findbytag', 'uses' => 'ReviewsController@findByTag'));
 
