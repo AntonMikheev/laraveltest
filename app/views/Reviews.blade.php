@@ -13,7 +13,7 @@
                     <table border="3px" width="800px" bgcolor="#E6E6FA" align="center">
                         <div class="btn-group">
                             <a href="editreviews/{{$item->id}}" class="btn btn-primary">Edite</a>
-                            <a href="deletereviews/{{$item->id}}" class="btn btn-primary">Delete</a>
+                            <a href="api.laraveltest/curlreviewsdel/{{$item->id}}" class="btn btn-primary">Delete</a>
                         </div>
                        <tr><td>Reviews ID</td><td>{{$item->id}}</td></tr> 
                         <tr><td>Reviews heading ID</td><td>{{$item->heading_id}}</td></tr> 

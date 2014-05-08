@@ -29,10 +29,39 @@ Route::post('addreviews', array('as' => 'add-reviews', 'uses' => 'ReviewsControl
 Route::get('editreviews/{reviews}', array( 'as' => 'editdatreviews', 'uses' => 'ReviewsController@viewFormEditReviews')); 
 Route::post('edit-reviews/{reviews}', array( 'as' => 'editreviews', 'uses' => 'ReviewsController@editReviews'));
 
-Route::get('api.laraveltest/reviews/{id}',array('as' => 'api.reviews', 'uses' => 'ReviewsController@apiReviews'));
+Route::get('api.laraveltest/reviews',array('as' => 'api.reviews', 'uses' => 'ReviewsController@apiReviews'));
+Route::get('api.laraveltest/singlereview/{id}',array('as' => 'api.single.reviews', 'uses' => 'ReviewsController@apiSingleReview'));
 Route::delete('api.laraveltest/reviewsdel/{id}',array('as' => 'api.reviews.del', 'uses' => 'ReviewsController@apiDelReviews'));
 Route::post('api.laraveltest/addreviews', array('as' => 'api.reviews.add', 'uses' => 'ReviewsController@apiAddReviews'));
 Route::post('api.laraveltest/editreviews', array('as' => 'api.reviews.edit', 'uses' => 'ReviewsController@apiEditReviews'));
 Route::post('api.laraveltest/findbytext', array('as' => 'api.reviews.findbytext', 'uses' => 'ReviewsController@findByText'));
 Route::post('api.laraveltest/findbytag', array('as' => 'api.reviews.findbytag', 'uses' => 'ReviewsController@findByTag'));
+Route::get('api.laraveltest/returndata',array('as' => 'api.returndata', 'uses' => 'ReviewsController@apiReturnData'));
+Route::get('api.laraveltest/returndataid/{id}',array('as' => 'api.returndata.id', 'uses' => 'ReviewsController@apiReturnDataId'));
+
+
+
+
+
+
+Route::get('api.laraveltest/curlreviews',array('as' => 'api.curl.reviews', 'uses' => 'ApiReviewsController@curlApiReviews'));
+
+Route::get('api.laraveltest/curlsinglereview/{id}', array('as' => 'api.curl.singlereviews', 'uses' => 'ApiReviewsController@curlApiSingleReview'));
+Route::get('api.laraveltest/curlreviewsdel/{id}', array('as' => 'api.curl.reviews.del', 'uses' => 'ApiReviewsController@curlApiDelReviews'));
+
+Route::get('api.laraveltest/curladdreviews', array('as' => 'api.curl.reviews.form.add', 'uses' => 'ApiReviewsController@curlApiFormAddReviews'));
+Route::post('api.laraveltest/curladdreviews', array('as' => 'api.curl.reviews.add', 'uses' => 'ApiReviewsController@curlApiAddReviews'));
+
+Route::get('api.laraveltest/curleditreviews/{id}', array('as' => 'api.curl.reviews.form.edit', 'uses' => 'ApiReviewsController@curlApiFormEditReviews'));
+Route::post('api.laraveltest/curleditreviews/{id}', array('as' => 'api.curl.reviews.edit', 'uses' => 'ApiReviewsController@curlApiEditReviews'));
+
+Route::get('api.laraveltest/curlfindbytag', array('as' => 'api.curl.reviews.formfindbytag', 'uses' => 'ApiReviewsController@curlFormFindByTag'));
+Route::post('api.laraveltest/curlfindbytag', array('as' => 'api.curl.reviews.findbytag', 'uses' => 'ApiReviewsController@curlFindByTag'));
+
+Route::get('api.laraveltest/curlfindbytext', array('as' => 'api.curl.reviews.formfindbytext', 'uses' => 'ApiReviewsController@curlFormFindByText'));
+Route::post('api.laraveltest/curlfindbytext', array('as' => 'api.curl.reviews.findbytext', 'uses' => 'ApiReviewsController@curlFindByText'));
+
+
+
+
 

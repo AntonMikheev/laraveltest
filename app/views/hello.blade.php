@@ -44,6 +44,7 @@
             <a href="{{ URL::route('viewheading') }}">Heading</a><br>
             <a href="{{ URL::route('viewreviews') }}">Reviews</a><br>
             <a href="{{ URL::route('viewtags') }}">Tags</a><br>
+            <h3><a href="{{ URL::route('api.curl.reviews') }}">Api Reviews</a></h3><br>
         </div>
     </body>
 </html>
