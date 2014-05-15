@@ -10,11 +10,11 @@
                 <article class="col-md-5">
                     <table border="3px" width="800px" bgcolor="#E6E6FA" align="center">
                         <div class="container">
-                            @if($response->success)
+                            @if($response->msg->success)
                             <div class="row">
                                 <article class="col-md-5">
                                     <table border="3px" width="800px" bgcolor="#E6E6FA" align="center">
-                                        <tr><td>Success</td><td>{{$response->message}}</td></tr>
+                                        <tr><td>Success</td><td>{{$response->id}} - {{$response->msg->message}}</td></tr>
                                     </table>
                                 </article>
                             </div>
@@ -22,7 +22,7 @@
                             <div class="row">
                                 <article class="col-md-5">
                                     <table border="3px" width="800px" bgcolor="#E6E6FA" align="center">
-                                        <tr><td>Error</td><td>{{$response->message}}</td></tr>
+                                        <tr><td>Error</td><td>{{$response->msg->message}}</td></tr>
                                     </table>
                                 </article>
                             </div>

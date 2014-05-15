@@ -6,7 +6,8 @@
     <body>
         <?php
         //var_dump($data);die;
-//        foreach ($tags as $item) {
+//        $test[] = $tags;
+//        foreach ($test as $item) {
 //            $tags_old[] = $item->id;
 //            $tags_old[] = $item->name;
 //        }

@@ -2,55 +2,106 @@
 
 class ReviewsControllerTest extends TestCase {
 
-    public function testapiReviews() {
+    public function testapiAddReviews() {
 
         $my = new ReviewsController();
-        $response = $this->call('GET', 'api.laraveltest/reviews/56');
-        $this->assertEquals('{"id":"56","heading_id":"2","name":"name6654","text":"tgerger","author":"ggt"}', $response->getContent());
+        $data = '{"name":"name668854","heading_id":"2","text":"tgerger","author":"ggt","tags":["2"],"news":["100"]}';
+        $response = $this->call('POST', 'api.laraveltest/addreviews', [], [], ['Accept: application/json', 'Content-Type: application/json'], $data);
+
+        $resp = $response->getContent();
+        $resp_decode = json_decode($resp, true);
+        $name = $resp_decode = json_decode($data, true);
+//        var_dump($resp_decode);
+        $this->assertEquals($name['name'], $resp_decode['name']);
         $this->assertResponseStatus(200);
     }
 
     public function testapiEditReviews() {
 
         $my = new ReviewsController();
-        $data = '{"id":"52", "text":"123123123123123"}';
+        $data = '{"id":"105", "text":"123123123123123"}';
         $response = $this->call('POST', 'api.laraveltest/editreviews', [], [], ['Accept: application/json', 'Content-Type: application/json'], $data);
-        $this->assertEquals('{"success":true,"message":"Edited"}', $response->getContent());
+
+        $resp = $response->getContent();
+        $resp_decode = json_decode($resp, true);
+        var_dump($resp_decode);
+        $id = json_decode($data, true);
+        $this->assertEquals($id['id'], $resp_decode['id']);
+        $this->assertEquals($id['text'], $resp_decode['text']);
+//        var_dump($resp_decode);
         $this->assertResponseStatus(200);
     }
 
     public function testfindByText() {
 
         $my = new ReviewsController();
-        $data = '{"data":"name6654"}';
+        $data = '{"data":"d"}';
         $response = $this->call('POST', 'api.laraveltest/findbytext', [], [], ['Accept: application/json', 'Content-Type: application/json'], $data);
-        $this->assertEquals('[{"id":"53","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"54","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"55","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"56","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"58","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}}]', $response->getContent());
+        $resp = $response->getContent();
+        $mass = json_decode($resp, true);
+//        $mass = array ($test);
+//        var_dump($mass);
+        foreach($mass as $id){
+        $this->assertArrayHasKey("id", $id);
+        }
+        foreach($mass as $var){
+            $this->assertArrayHasKey("heading_id", $var);
+
+            $this->assertArrayHasKey("text", $var);
+
+            $this->assertArrayHasKey("name", $var);
+
+            $this->assertArrayHasKey("author", $var);
+
+            $this->assertArrayHasKey("news", $var);
+
+            $this->assertArrayHasKey("tags", $var);
+        }
+        foreach($mass as $name){
+        $a = substr_count($name['name'], 'd');
+//            var_dump($a);
+        $this->assertGreaterThanOrEqual(1, $a);
+        }
         $this->assertResponseStatus(200);
     }
 
     public function testfindByTag() {
 
         $my = new ReviewsController();
-        $data = '{"data":"name6654"}';
-        $response = $this->call('POST', 'api.laraveltest/findbytext', [], [], ['Accept: application/json', 'Content-Type: application/json'], $data);
-        $this->assertEquals('[{"id":"53","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"54","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"55","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"56","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"57","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}},{"id":"58","name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","news":{},"tags":{}}]', $response->getContent());
+        $data = '{"data":"euro"}';
+        $response = $this->call('POST', 'api.laraveltest/findbytag', [], [], ['Accept: application/json', 'Content-Type: application/json'], $data);
+        $resp = $response->getContent();
+        $mass = json_decode($resp, true);
+//        var_dump($mass);
+//        $exp = '{"success":false,"message":"Bad request"}';
+//        $this->assertJsonStringEqualsJsonString($exp,$resp);
+        $this->assertArrayHasKey("News", $mass);
+        $this->assertArrayHasKey("Reviews", $mass);
+        $this->assertNotEmpty($mass);
+
         $this->assertResponseStatus(200);
     }
 
     public function testapiDelReviews() {
 
         $my = new ReviewsController();
-        $response = $this->call('DELETE', 'api.laraveltest/reviewsdel/56');
-        $this->assertEquals('{"success":true,"message":"Delete"}', $response->getContent());
+        $id = '102';
+        $response = $this->call('DELETE', "api.laraveltest/reviewsdel/$id");
+        $resp = $response->getContent();
+        $resp_decode = json_decode($resp, true);
+        $this->assertEquals($id, $resp_decode['id']);
+//        var_dump($resp_decode);
+
     }
 
-    public function testapiAddReviews() {
+    public function testapiSingleReviews() {
 
         $my = new ReviewsController();
-        $data = '{"name":"name6654","heading_id":"2","text":"tgerger","author":"ggt","tags":"2","news":"100"}';
-        $response = $this->call('POST', 'api.laraveltest/addreviews', [], [], ['Accept: application/json', 'Content-Type: application/json'], $data);
-        $this->assertEquals('{"success":true,"message":"Added"}', $response->getContent());
+        $id = '136';
+        $response = $this->call('GET', "api.laraveltest/singlereview/$id");
+        $resp = $response->getContent();
+        $resp_decode = json_decode($resp, true);
+        $this->assertEquals($id, $resp_decode['id']);
         $this->assertResponseStatus(200);
     }
-
 }

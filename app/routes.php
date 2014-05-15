@@ -29,6 +29,18 @@ Route::post('addreviews', array('as' => 'add-reviews', 'uses' => 'ReviewsControl
 Route::get('editreviews/{reviews}', array( 'as' => 'editdatreviews', 'uses' => 'ReviewsController@viewFormEditReviews')); 
 Route::post('edit-reviews/{reviews}', array( 'as' => 'editreviews', 'uses' => 'ReviewsController@editReviews'));
 
+
+Route::get('viewregistrform',array('as' => 'viewregistrform', 'uses' => 'UserController@viewFormRegistration'));
+Route::post('registration',array('as' => 'registration', 'uses' => 'UserController@registrationNewUser'));
+Route::get('userloginform',array('as' => 'userloginform', 'uses' => 'UserController@userLoginForm'));
+Route::post('userlogin',array('as' => 'userlogin', 'uses' => 'UserController@userLogin'));
+Route::get('userlogout',array('as' => 'userlogout', 'uses' => 'UserController@userLogout'));
+
+
+
+
+
+
 Route::get('api.laraveltest/reviews',array('as' => 'api.reviews', 'uses' => 'ReviewsController@apiReviews'));
 Route::get('api.laraveltest/singlereview/{id}',array('as' => 'api.single.reviews', 'uses' => 'ReviewsController@apiSingleReview'));
 Route::delete('api.laraveltest/reviewsdel/{id}',array('as' => 'api.reviews.del', 'uses' => 'ReviewsController@apiDelReviews'));
@@ -38,6 +50,8 @@ Route::post('api.laraveltest/findbytext', array('as' => 'api.reviews.findbytext'
 Route::post('api.laraveltest/findbytag', array('as' => 'api.reviews.findbytag', 'uses' => 'ReviewsController@findByTag'));
 Route::get('api.laraveltest/returndata',array('as' => 'api.returndata', 'uses' => 'ReviewsController@apiReturnData'));
 Route::get('api.laraveltest/returndataid/{id}',array('as' => 'api.returndata.id', 'uses' => 'ReviewsController@apiReturnDataId'));
+
+
 
 
 

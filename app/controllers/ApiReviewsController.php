@@ -28,7 +28,6 @@ class ApiReviewsController extends BaseController {
         $data = array(
             'data' => ApiReviewsController::unit($url, $method)
         );
-//        return $data;
         return View::make('ApiSingleReview',$data);
     }
 
@@ -49,7 +48,6 @@ class ApiReviewsController extends BaseController {
         $author = Input::get('author');
         $tags = Input::get('tags');
         $news = Input::get('news');
-
         $request_data = array();
         if (isset($name)) {
             $request_data['name'] = $name;
@@ -69,14 +67,10 @@ class ApiReviewsController extends BaseController {
         if (isset($news)) {
             $request_data['news'] = $news;
         }
-//        return $request_data;die;
-
         $json = json_encode($request_data);
-//        return $json;die;
         $url = 'addreviews';
         $method = "POST";
         $response = array ('response' =>ApiReviewsController::unit($url, $method, $json));
-//        var_dump($response);die;
         return View::make('ApiSuccessAddReview', $response);
     }
 
@@ -92,7 +86,6 @@ class ApiReviewsController extends BaseController {
         $url = "returndataid/$id";
         $method = "GET";
         $data = array('data' => ApiReviewsController::unit($url, $method));
-//        var_dump($data);die;
         return View::make('ApiFormEditReviews', $data);
     }
 
@@ -144,11 +137,12 @@ class ApiReviewsController extends BaseController {
         $request_data = array("data" => Input::get('tag'));
         $json = json_encode($request_data);
         $data = ApiReviewsController::unit($url, $method, $json);
+//        var_dump($data);die;
         if(!empty($data->News)&&!empty($data->Reviews)){
-        $resultMass = array(
-            'news' => $data->News,
-            'reviews' => $data->Reviews,
-        );
+            $resultMass = array(
+                'news' => $data->News,
+                'reviews' => $data->Reviews,
+            );
             return View::make('ApiFindByTagReviews',$resultMass);
         }
         elseif(!empty($data->News)&&empty($data->Reviews)){
@@ -164,8 +158,9 @@ class ApiReviewsController extends BaseController {
             return View::make('ApiFindByTagReviews',$resultMass);
         }
         else{
-            $error = array('error' => json_decode(Config::get('testconst.empty_request')));
-            //print_r($error);
+//            var_dump($data);die;
+            $error = array('error' => $data);
+//            var_dump($error);die;
             return View::make('ApiFindByTagReviews',$error);
         }
     }
