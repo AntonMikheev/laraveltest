@@ -3,401 +3,182 @@
 class ReviewsController extends BaseController {
 
 
-    public function apiReviews() {
-        $data = Reviews::all();
-        return Response::json($data);
+    protected function unit( $url, $method,$json=NULL) {
+        $path= Config::get('curl.path_to_api');
+        $ch = curl_init("$path" .$url);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($ch);
+        return json_decode($response,true);
     }
 
-    public function apiSingleReview($id) {
+    public function allReviews() {
 
-        $review = Reviews::find($id);
-        if (!empty($review)) {
-            return Response::json($review);
-        } else {
-            return Config::get('testconst.error_request');
-        }
-    }
-
-    public function apiReturnData() {
-        $heading = Heading::all();
-        $heading_mass_select = array();
-        foreach ($heading as $item) {
-            $heading_mass_select[$item->id] = $item->name;
-        }
-        $tags = Tags::all();
-        $tags_mass_select = array();
-        foreach ($tags as $item) {
-            $tags_mass_select[$item->id] = $item->name;
-        }
-        $news = News::all();
-        $news_mass_select = array();
-        foreach ($news as $item) {
-            $news_mass_select[$item->id] = $item->name;
-        }
-        $mass = array('heading_mass' => $heading_mass_select,
-            'tags_mass' => $tags_mass_select,
-            'news_mass' => $news_mass_select,
+        $url = "reviews";
+        $method ="GET";
+        $data = array(
+            'data' => ReviewsController::unit($url, $method)
         );
-        return Response::json($mass);
+        return View::make('Reviews',$data);
     }
 
-    public function apiReturnDataId($id) {
-
-        $reviews = Reviews::find($id);
-        $tags_old = Reviews::find($id)->tags()->get();
-        $news_old = Reviews::find($id)->news()->get();
-        $heading = Heading::all();
-        $heading_mass_select = array();
-        foreach ($heading as $item) {
-            $heading_mass_select[$item->id] = $item->name;
-        }
-        $tags = Tags::all();
-        $tags_mass_select = array();
-        foreach ($tags as $item) {
-            $tags_mass_select[$item->id] = $item->name;
-        }
-        $news = News::all();
-        $news_mass_select = array();
-        foreach ($news as $item) {
-            $news_mass_select[$item->id] = $item->name;
-        }
-        $mass = array('name' => $reviews->name,
-            'heading_id' => $reviews->heading_id,
-            'text' => $reviews->text,
-            'id' => $reviews->id,
-            'author' => $reviews->author,
-            'tags' => $tags_old[0]->id,
-            'news' => $news_old[0]->id,
-            'heading_mass' => $heading_mass_select,
-            'tags_mass' => $tags_mass_select,
-            'news_mass' => $news_mass_select,
+    public function singleReview($id) {
+        $url = "singlereview/$id";
+        $method = "GET";
+        $data = array(
+            'data' => ReviewsController::unit($url, $method)
         );
-        return Response::json($mass);
+        return View::make('SingleReview',$data);
     }
 
-    public function apiDelReviews($id) {
-        $reviewsfind = Reviews::find($id);
-        if (!empty($reviewsfind)) {
-            $reviewsfind->delete();
-            $error = json_decode(Config::get('testconst.success_del'), true);
-            return $msg = array(
-                'id' => $id,
-                'msg' => $error,
-            );
-        } else {
-            $error = json_decode(Config::get('testconst.error_request'), true);
-            return $msg = array(
-                'msg' => $error,
-            );
-        }
-    }
-
-    public function apiAddReviews() {
-
-        $name = Input::json('name');
-        $heading_id = Input::json('heading_id');
-        $text = Input::json('text');
-        $author = Input::json('author');
-        $tags[] = Input::json('tags');
-        $news[] = Input::json('news');
-
-        if (isset($name) && isset($heading_id) && isset($text) && isset($author) && isset($tags) && isset($news)) {
-            $review = new Reviews;
-            $review->name = $name;
-            $review->heading_id = $heading_id;
-            $review->text = $text;
-            $review->author = $author;
-            $review->save();
-            foreach ($tags[0] as $tag) {
-                Tags::find($tag)->reviews()->save($review);
-            }
-            foreach ($news[0] as $new) {
-                News::find($new)->reviews()->save($review);
-            }
-            $error = json_decode(Config::get('testconst.success_add'), true);
-            return $msg = array(
-                'id' => $review->id,
-                'msg' => $error,
-            );
-        }
-        else {
-            $error = json_decode(Config::get('testconst.error_request'), true);
-            return $msg = array(
-                'msg' => $error,
-            );
-        }
-    }
-
-    public function apiEditReviews() {
-
-        $id = Input::json('id');
-        $name = Input::json('name');
-        $heading = Input::json('heading_id');
-        $text = Input::json('text');
-        $author = Input::json('author');
-        $tags = Input::json('tags');
-        $news = Input::json('news');
-        $review = Reviews::find($id);
-        if (isset($review)) {
-            if (isset($name)) {
-                $review->name = $name;
-            }
-            if (isset($heading)) {
-                $review->heading_id = $heading;
-            }
-            if (isset($text)) {
-                $review->text = $text;
-            }
-            if (isset($author)) {
-                $review->author = $author;
-            }
-            $review->save();
-            if (!empty($tags)) {
-                foreach ($tags as $tag) {
-                    Tags::find($tag)->reviews()->save($review);
-                }
-            }
-
-            if (!empty($news)) {
-                foreach ($news as $new) {
-                    News::find($new)->reviews()->save($review);
-                }
-            }
-            $error = json_decode(Config::get('testconst.success_edit'), true);
-//            return $error;
-            return $msg = array(
-                'id' => $id,
-                'msg' => $error,
-                'text' => $text,
-            );
-        } else {
-            $error = json_decode(Config::get('testconst.error_request'), true);
-//            return $error;
-            return $msg = array(
-                'id' => $id,
-                'msg' => $error,
-            );
-        }
-    }
-
-    public function findByText() {
-        $review = Reviews::where('name', 'like', '%' . Input::json('data') . '%')->get(array('id'));
-        if(!$review->IsEmpty()) {
-            foreach ($review as $id) {
-                $rev_mass = Reviews::find($id->id);
-                $a[] = ['id' => $rev_mass->id,
-                    'name' => $rev_mass->name,
-                    'heading_id' => $rev_mass->heading_id,
-                    'text' => $rev_mass->text,
-                    'author' => $rev_mass->author,
-                    'news' => $rev_mass->news,
-                    'tags' => $rev_mass->tags,
-                ];
-            }
-            return Response::json($a);
-        }
-        else {
-            return Config::get('testconst.error_request');
-        }
-    }
-
-    public function findByTag() {
-        $review = Tags::where('name', 'like', '%' . Input::json('data') . '%')->get(array('id'));
-        if($review->isEmpty()){
-            return Config::get('testconst.error_request');
-        }
-        else{
-            $rev = Tags::find($review[0]->id)->reviews()->get();
-            $new = Tags::find($review[0]->id)->news()->get();
-            $response = array();
-            if(!empty($new)&&!empty($rev)) {
-                foreach ($new as $item) {
-                    $response['News'][] = [
-                        'id' => $item->id,
-                        'name' => $item->name,
-                        'heading_id' => $item->heading_id,
-                        'text' => $item->text,
-                        'author' => $item->author,
-                        'reviews' => $item->reviews_id,
-                        'tags' => $item->tags_id,
-                    ];
-                }
-                foreach ($rev as $item) {
-                    $response['Reviews'][] = [
-                        'id' => $item->id,
-                        'name' => $item->name,
-                        'heading_id' => $item->heading_id,
-                        'text' => $item->text,
-                        'author' => $item->author,
-                        'news' => $item->news_id,
-                        'tags' => $item->tags_id,
-                    ];
-                }
-                return Response::json($response);
-            }
-            elseif(!empty($new)&&empty($rev)){
-                foreach ($new as $item) {
-                    $response['News'][] = [
-                        'id' => $item->id,
-                        'name' => $item->name,
-                        'heading_id' => $item->heading_id,
-                        'text' => $item->text,
-                        'author' => $item->author,
-                        'reviews' => $item->reviews_id,
-                        'tags' => $item->tags_id,
-                    ];
-                }
-                return Response::json($response);
-            }
-            elseif(empty($new)&&!empty($rev)){
-                foreach ($new as $item) {
-                    $response['Reviews'][] = [
-                        'id' => $item->id,
-                        'name' => $item->name,
-                        'heading_id' => $item->heading_id,
-                        'text' => $item->text,
-                        'author' => $item->author,
-                        'reviews' => $item->reviews_id,
-                        'tags' => $item->tags_id,
-                    ];
-                }
-                return Response::json($response);
-            }
-        }
-    }
-
-    public function reviews() {
-        View::share('reviews', Reviews::all());
-        return View::make('Reviews');
-    }
-
-    public function viewFormEditReviews($reviews) {
-        $heading = Heading::all();
-        $heading_mass_select = array();
-        foreach ($heading as $item) {
-            $heading_mass_select[$item->id] = $item->name;
-        }
-        $tags = Tags::all();
-        $tags_mass_select = array();
-        foreach ($tags as $item) {
-            $tags_mass_select[$item->id] = $item->name;
-        }
-        $news = News::all();
-        $news_mass_select = array();
-        foreach ($news as $item) {
-            $news_mass_select[$item->id] = $item->name;
-        }
-        $type = array('name' => $reviews->name,
-            'heading_id' => $reviews->heading_id,
-            'text' => $reviews->text,
-            'id' => $reviews->id,
-            'author' => $reviews->author,
-            'tags2' => $reviews->tags,
-            'news2' => $reviews->news,
-            'heading_mass' => $heading_mass_select,
-            'tags_mass' => $tags_mass_select,
-            'news_mass' => $news_mass_select,
+    public function formAddReviews() {
+        $url = "returndata";
+        $method = "GET";
+        $data = array(
+            'data' => ReviewsController::unit($url, $method)
         );
-        return View::make('formEditReviews', $type);
-    }
-
-    public function editReviews($reviews) {
-        $name = Input::get('name');
-        $heading = Input::get('heading');
-        $text = Input::get('text');
-        $author = Input::get('author');
-        $tags = Input::get('tags');
-        $news = Input::get('news');
-
-//        $input = Input::all();
-//        $rules = array(
-//            'name' => 'required|alpha_num',
-//            'heading_id' => 'num',
-//            'text' => 'required|alpha_num',
-//            'author' => 'required|alpha_num',
-//            'tags' => 'num',
-//            'news' => 'num',
-//        );
-//        $validation = Validator::make($input, $rules);
-//        if ($validation->fails()) {
-//            return Redirect::back();
-//        } else {
-        $model = Reviews::find($reviews->id);
-        $model->name = $name;
-        $model->heading_id = $heading;
-        $model->text = $text;
-        $model->author = $author;
-        $model->save();
-        if(isset($tags)){
-            foreach ($tags as $tag) {
-                Tags::find($tag)->reviews()->save($model);
-            }
-        }
-        if(isset($news)){
-            foreach ($news as $new) {
-                News::find($new)->reviews()->save($model);
-            }
-        }
-        return Redirect::route('viewreviews');
-//        }
-    }
-
-    public function delete($reviews) {
-        $reviews->delete();
-        return Redirect::to('reviews');
-    }
-
-    public function viewFormAddReviews() {
-        $heading = Heading::all();
-        $heading_mass_select = array();
-        foreach ($heading as $item) {
-            $heading_mass_select[$item->id] = $item->name;
-        }
-        $tags = Tags::all();
-        $tags_mass_select = array();
-        foreach ($tags as $item) {
-            $tags_mass_select[$item->id] = $item->name;
-        }
-        $news = News::all();
-        $news_mass_select = array();
-        foreach ($news as $item) {
-            $news_mass_select[$item->id] = $item->name;
-        }
-        $mass = array('heading_mass' => $heading_mass_select,
-            'tags_mass' => $tags_mass_select,
-            'news_mass' => $news_mass_select,
-        );
-        return View::make('formAddReviews', $mass);
+        return View::make('FormAddReviews', $data);
     }
 
     public function addReviews() {
+
         $name = Input::get('name');
-        $heading = Input::get('heading');
+        $heading_id = Input::get('heading_id');
+        $text = Input::get('text');
+        $author = Input::get('author');
+        $tags = Input::get('tags');
+        $news = Input::get('news');
+        $request_data = array();
+        if (isset($name)) {
+            $request_data['name'] = $name;
+        }
+        if (isset($heading_id)) {
+            $request_data['heading_id'] = $heading_id;
+        }
+        if (isset($text)) {
+            $request_data['text'] = $text;
+        }
+        if (isset($author)) {
+            $request_data['author'] = $author;
+        }
+        if (isset($tags)) {
+            $request_data['tags'] = $tags;
+        }
+        if (isset($news)) {
+            $request_data['news'] = $news;
+        }
+        $json = json_encode($request_data);
+        $url = 'addreviews';
+        $method = "POST";
+        $response = array ('response' =>ReviewsController::unit($url, $method, $json));
+//        var_dump($response);exit;
+        return View::make('SuccessAddReview', $response);
+    }
+
+    public function delReviews($id) {
+
+        $url = "reviewsdel/$id";
+        $method ="DELETE";
+        $response = ReviewsController::unit($url, $method);
+        return Redirect::to('reviews')->with('message', $response);
+    }
+
+    public function formEditReviews($id) {
+        $url = "returndataid/$id";
+        $method = "GET";
+        $data = array('data' => ReviewsController::unit($url, $method));
+        return View::make('FormEditReviews', $data);
+    }
+
+    public function editReviews($id) {
+
+        $name = Input::get('name');
+        $heading_id = Input::get('heading_id');
         $text = Input::get('text');
         $author = Input::get('author');
         $tags = Input::get('tags');
         $news = Input::get('news');
 
-        $model = new Reviews;
-        $model->name = $name;
-        $model->heading_id = $heading;
-        $model->text = $text;
-        $model->author = $author;
-        DB::transaction(function () use ($model, $tags, $news) {
-            $model->save();
-            if (!empty($tags)) {
-                foreach ($tags as $tag) {
-                    Tags::find($tag)->reviews()->save($model);
-                }
-            }
-
-            if (!empty($news)) {
-                foreach ($news as $new) {
-                    News::find($new)->reviews()->save($model);
-                }
-            }
-        });
-        return Redirect::route('viewreviews');
+        $request_data = array();
+        $request_data['id'] =$id;
+        if (isset($name)) {
+            $request_data['name'] = $name;
+        }
+        if (isset($heading_id)) {
+            $request_data['heading_id'] = $heading_id;
+        }
+        if (isset($text)) {
+            $request_data['text'] = $text;
+        }
+        if (isset($author)) {
+            $request_data['author'] = $author;
+        }
+        if (isset($tags)) {
+            $request_data['tags'] = $tags;
+        }
+        if (isset($news)) {
+            $request_data['news'] = $news;
+        }
+        $url = "editreviews";
+        $method = "POST";
+        $json = json_encode($request_data);
+//        return $json;die;
+        $response = array ('response' =>ReviewsController::unit($url, $method, $json));
+//        var_dump($response);die;
+        return View::make('SuccessEditReview', $response);
     }
 
+    public function formFindByTag() {
+        echo View::make('FindByTag');
+    }
+
+    public function findByTag() {
+        $url = "findbytag";
+        $method ="POST";
+        $request_data = array("data" => Input::get('tag'));
+        $json = json_encode($request_data);
+        $data = ReviewsController::unit($url, $method, $json);
+//        var_dump($data);die;
+        if(!empty($data['News'])&&!empty($data['Reviews'])){
+            $resultMass = array(
+                'news' => $data['News'],
+                'reviews' => $data['Reviews'],
+            );
+            return View::make('FindByTagReviews',$resultMass);
+        }
+        elseif(!empty($data['News'])&&empty($data['Reviews'])){
+            $resultMass = array(
+                'news' => $data['News'],
+            );
+            return View::make('FindByTagReviews',$resultMass);
+        }
+        elseif(empty($data['News'])&&!empty($data['Reviews'])){
+            $resultMass = array(
+                'reviews' => $data['Reviews'],
+            );
+            return View::make('FindByTagReviews',$resultMass);
+        }
+        else{
+//            var_dump($data);die;
+            $error = array('error' => $data);
+//            var_dump($error);die;
+            return View::make('FindByTagReviews',$error);
+        }
+    }
+
+    public function formFindByText() {
+        echo View::make('FindByText');
+    }
+
+    public function findByText() {
+        $url = "findbytext";
+        $method ="POST";
+        $request_data = array("data" => Input::get('name'));
+        $json = json_encode($request_data);
+        $data = array ('data' => ReviewsController::unit($url, $method, $json));
+//        var_dump($data);exit;
+        return View::make('FindByTextReviews', $data);
+    }
 }

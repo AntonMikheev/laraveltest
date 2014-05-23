@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Laravel PHP Framework</title>
+        <title>Laraveltest</title>
         <style>
             @import url(//fonts.googleapis.com/css?family=Lato:700);
 
@@ -40,13 +40,16 @@
             <h1>HELLO!</h1>
             <h2>Todo list</h2>
             <h3><a href="{{ URL::route('viewregistrform') }}">Register new user</a><br></h3>
+            <?php $islogin = Session::get('islogin');
+                  $name = Session::get('name');
+            ?>
+            @if(isset($islogin)&&!empty($islogin))
+            <h1>Hello, {{$name}}</h1>
+            <h3><a href="{{ URL::route('userlogout') }}">Logout</a><br></h3>
+            <h1><a href="{{ URL::route('reviews') }}">Api Reviews</a></h1><br>
+            @else
             <h3><a href="{{ URL::route('userloginform') }}">Login</a><br></h3>
-            <a href="{{ URL::route('add-news') }}">Add News</a><br>
-            <a href="{{ URL::route('viewnews') }}">News</a><br>
-            <a href="{{ URL::route('viewheading') }}">Heading</a><br>
-            <a href="{{ URL::route('viewreviews') }}">Reviews</a><br>
-            <a href="{{ URL::route('viewtags') }}">Tags</a><br>
-            <h3><a href="{{ URL::route('api.curl.reviews') }}">Api Reviews</a></h3><br>
+            @endif
         </div>
     </body>
 </html>

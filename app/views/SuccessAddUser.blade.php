@@ -6,23 +6,23 @@
         <div class="container">
             <div class="row">
                 <h3><a href="{{ URL::route('home') }}">Home</a></h3><br>
-                <h3><a href="{{ URL::route('api.curl.reviews') }}">All Reviews</a></h3><br>
+                <h3><a href="{{ URL::route('reviews') }}">All Reviews</a></h3><br>
                 <article class="col-md-5">
                     <table border="3px" width="800px" bgcolor="#E6E6FA" align="center">
                         <div class="container">
-                            @if($response->success)
+                            @if($success)
                             <div class="row">
                                 <article class="col-md-5">
                                     <table border="3px" width="800px" bgcolor="#E6E6FA" align="center">
-                                        <tr><td>Success</td><td>{{$response->message}}</td></tr>
+                                        <tr><td>Success</td><td>{{$message}}</td></tr>
                                     </table>
                                 </article>
                             </div>
-                            @elseif(!$response['message]->success)
+                            @elseif(!$success)
                             <div class="row">
                                 <article class="col-md-5">
                                     <table border="3px" width="800px" bgcolor="#E6E6FA" align="center">
-                                        <tr><td>Error</td><td>{{$response['message']->message}}</td></tr>
+                                        <tr><td>Error</td><td>{{$message}}</td></tr>
                                     </table>
                                 </article>
                             </div>

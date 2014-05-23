@@ -2,30 +2,43 @@
 
 class UserController extends BaseController {
 
+    protected static function unit( $url, $method,$json=NULL) {
+        $path= Config::get('curl.path_to_userapi');
+        $ch = curl_init("$path" .$url);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($ch);
+        return json_decode($response,true);
+    }
+
     public function viewFormRegistration(){
         return View::make('RegistrForm');
     }
 
-    public function registrationNewUser(){
+    public function curlApiAddUser() {
 
         $username = Input::get('name');
         $email = Input::get('email');
         $password = Input::get('password');
-        $hashpass = Hash::make($password);
         $acceptpassword = Input::get('acceptpassword');
-
+        $request_data = array();
         if($password === $acceptpassword){
-            $newuser = new User;
-            $newuser->name = $username;
-            $newuser->email = $email;
-            $newuser->password = $hashpass;
-            $newuser->save();
+            if (isset($username)&&isset($email)&&isset($password)) {
+                $request_data['name'] = $username;
+                $request_data['email'] = $email;
+                $request_data['password'] = $password;
 
-            return Redirect::route('viewreviews');
-        }
-
-        else {
-            return View::make('RegistrForm');
+                $json = json_encode($request_data);
+                $url = 'registration';
+                $method = "POST";
+                $response = UserController::unit($url, $method, $json);
+                return View::make('SuccessAddUser', $response);
+            }
+            else {
+                return Redirect::route('viewregistrform');
+            }
         }
     }
 
@@ -33,28 +46,37 @@ class UserController extends BaseController {
         return View::make('UserLoginForm');
     }
 
-    public function userLogin() {
+    public function curlApiLoginUser() {
 
         $email =Input::get('email');
         $password =Input::get('password');
-        $remember = Input::get('rememberme');
-        $rem = "false";
-        if($remember == 1){
-            $rem = "true";
-        }
-//    return $rem;
-        $credentials = array('email' => $email, 'password' => $password);
-        if (Auth::attempt($credentials))
-        {
-            return Redirect::route('viewreviews');
+        $logintime = Input::get('rememberme');
+        if (isset($email)&&isset($password)) {
+            $request_data['email'] = $email;
+            $request_data['password'] = $password;
+            $request_data['logintime'] = $logintime;
+            $json = json_encode($request_data);
+            $url = 'userlogin';
+            $method = "POST";
+            $response = UserController::unit($url, $method, $json);
+            Session::put('islogin', $response['islogin']);
+            Session::put('name', $response['name']);
+            return Redirect::route('reviews');
         }
         else {
-            return View::make('UserLoginForm');
+            return Redirect::route('viewregistrform');
         }
     }
-    public function userLogout(){
-        Auth::logout();
-        return Redirect::route('viewreviews');
-    }
 
+    public static function userLogout(){
+//        Session::forget('islogin');
+        $url = 'userlogout';
+        $method = "GET";
+        $request_data =array('islogin' => Session::get('islogin'));
+        $json = json_encode($request_data);
+        $response = UserController::unit($url, $method, $json);
+        Session::forget('islogin');
+        Session::forget('name');
+        return Redirect::back();
+    }
 }

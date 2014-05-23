@@ -1,5 +1,6 @@
 <?php
 
     return array(
-      "path_to_api" => "http://laraveltest/api.laraveltest/",
+      "path_to_api" => "http://newapireviews/",
+      "path_to_userapi" => "http://newapiuser/",
     );
