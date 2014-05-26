@@ -13,7 +13,7 @@ class UserController extends BaseController {
         return json_decode($response,true);
     }
 
-    public function viewFormRegistration(){
+    public static function viewFormRegistration(){
         return View::make('RegistrForm');
     }
 
@@ -61,10 +61,11 @@ class UserController extends BaseController {
             $response = UserController::unit($url, $method, $json);
             Session::put('islogin', $response['islogin']);
             Session::put('name', $response['name']);
+            Session::put('permission', $response['permission']);
             return Redirect::route('reviews');
         }
         else {
-            return Redirect::route('viewregistrform');
+            return Redirect::route('userloginform');
         }
     }
 
