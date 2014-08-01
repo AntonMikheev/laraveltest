@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98f11279-65f7-41c5-8ec9-b331582a03f2" name="Default" comment="">
+    <list default="true" id="46c5e410-6efd-4918-a0ae-0a9e06b2885d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/StringController.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/OldReviewsController.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.phar" afterPath="$PROJECT_DIR$/phpunit.phar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_04_15_102504_info_view.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_04_15_102504_info_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/FindByTag.blade.php" afterPath="$PROJECT_DIR$/app/views/FindByTag.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/FindByTagReviews.blade.php" afterPath="$PROJECT_DIR$/app/views/FindByTagReviews.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/FindByText.blade.php" afterPath="$PROJECT_DIR$/app/views/FindByText.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/FindByTextReviews.blade.php" afterPath="$PROJECT_DIR$/app/views/FindByTextReviews.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/FormAddReviews.blade.php" afterPath="$PROJECT_DIR$/app/views/FormAddReviews.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/FormEditReviews.blade.php" afterPath="$PROJECT_DIR$/app/views/FormEditReviews.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Heading.php" afterPath="$PROJECT_DIR$/app/models/Heading.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HeadingController.php" afterPath="$PROJECT_DIR$/app/controllers/HeadingController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/News.php" afterPath="$PROJECT_DIR$/app/models/News.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/NewsController.php" afterPath="$PROJECT_DIR$/app/controllers/NewsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/RegistrForm.blade.php" afterPath="$PROJECT_DIR$/app/views/RegistrForm.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Reviews.blade.php" afterPath="$PROJECT_DIR$/app/views/Reviews.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Reviews.php" afterPath="$PROJECT_DIR$/app/models/Reviews.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ReviewsController.php" afterPath="$PROJECT_DIR$/app/controllers/ReviewsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/ReviewsControllerTest.php" afterPath="$PROJECT_DIR$/app/tests/ReviewsControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/SingleReview.blade.php" afterPath="$PROJECT_DIR$/app/views/SingleReview.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/SuccessAddReview.blade.php" afterPath="$PROJECT_DIR$/app/views/SuccessAddReview.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/SuccessAddUser.blade.php" afterPath="$PROJECT_DIR$/app/views/SuccessAddUser.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/SuccessEditReview.blade.php" afterPath="$PROJECT_DIR$/app/views/SuccessEditReview.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Tags.php" afterPath="$PROJECT_DIR$/app/models/Tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TagsController.php" afterPath="$PROJECT_DIR$/app/controllers/TagsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.php" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/UserLoginForm.blade.php" afterPath="$PROJECT_DIR$/app/views/UserLoginForm.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_ide_helper.php" afterPath="$PROJECT_DIR$/_ide_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/curl.php" afterPath="$PROJECT_DIR$/app/config/curl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hello.blade.php" afterPath="$PROJECT_DIR$/app/views/hello.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/laraveltest.iml" afterPath="$PROJECT_DIR$/.idea/laraveltest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.phar.1" afterPath="$PROJECT_DIR$/phpunit.phar.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/script.js" afterPath="$PROJECT_DIR$/public/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/testconst.php" afterPath="$PROJECT_DIR$/app/config/testconst.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="laraveltest.iws" />
@@ -28,55 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReviewsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ReviewsController.php">
+      <file leaf-file-name="StringController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/StringController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="34" selection-start="578" selection-end="578" vertical-scroll-proportion="-6.6666665" vertical-offset="108" max-vertical-offset="3420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="9" selection-start="841" selection-end="841" vertical-scroll-proportion="-16.666666" vertical-offset="0" max-vertical-offset="1098">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="curl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/curl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="24" selection-end="24" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="198">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-28.666666" vertical-offset="0" max-vertical-offset="1584">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reviews.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/Reviews.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="26" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.7409949" vertical-offset="324" max-vertical-offset="1134">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="22" selection-start="2293" selection-end="2302" vertical-scroll-proportion="10.666667" vertical-offset="756" max-vertical-offset="1422">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881">
               <folding />
             </state>
           </provider>
@@ -92,59 +88,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/app/config/app.php" />
-        <option value="$PROJECT_DIR$/app/config/testing/curl.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiFormFindByTag.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiFormFindByTag.balde.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiFind.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiFindByTagReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiFindByText.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiFindByTextReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiSingleReview.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiFormAddReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiSuccessDeleteReview.blade.php" />
-        <option value="$PROJECT_DIR$/app/config/testconst.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiFormEditReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiSuccessEditReview.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiSuccessAddReview.blade.php" />
-        <option value="$PROJECT_DIR$/app/tests/ReviewsControllerTest.php" />
-        <option value="$PROJECT_DIR$/app/views/AuthForm.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/RegistrForm.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/UserLogin.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/UserLoginForm.blade.php" />
-        <option value="$PROJECT_DIR$/app/models/User.php" />
-        <option value="$PROJECT_DIR$/app/config/auth.php" />
-        <option value="$PROJECT_DIR$/app/config/session.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiSuccessAddUser.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ApiReviewsController.php" />
-        <option value="$PROJECT_DIR$/app/config/curl.php" />
-        <option value="$PROJECT_DIR$/app/views/SingleReview.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/ApiReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/FormAddReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/SuccessAddReview.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/SuccessEditReview.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/FormEditReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/FindByTagReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/FindByTextReviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ReviewsController.php" />
-        <option value="$PROJECT_DIR$/app/views/SuccessAddUser.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/hello.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/views/Reviews.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
-      </list>
-    </option>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="25" />
-    <option name="width" value="1372" />
-    <option name="height" value="745" />
+    <option name="y" value="31" />
+    <option name="width" value="1920" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -153,7 +101,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -218,61 +166,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laraveltest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laraveltest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laraveltest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laraveltest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laraveltest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laraveltest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,78 +177,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.general" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/config" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98f11279-65f7-41c5-8ec9-b331582a03f2" name="Default" comment="" />
-      <created>1397637621064</created>
-      <updated>1397637621064</updated>
+      <changelist id="46c5e410-6efd-4918-a0ae-0a9e06b2885d" name="Default" comment="" />
+      <created>1405946458179</created>
+      <updated>1405946458179</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="25" width="1372" height="745" extended-state="6" />
+    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24231333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" x="711" y="88" width="278" height="650" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -378,286 +228,12 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="9" />
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/tests/ReviewsControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/StringController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="2158" selection-end="2158" vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="2034" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="38" selection-start="3507" selection-end="3507" vertical-scroll-proportion="0.0" vertical-offset="1728" max-vertical-offset="1926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/SuccessAddUser.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="13" selection-start="4858" selection-end="4858" vertical-scroll-proportion="0.0" vertical-offset="1368" max-vertical-offset="1584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ReviewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="3366">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/FindByTagReviews.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="69" selection-start="3581" selection-end="3581" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1458" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/FindByTag.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Reviews.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/OldReviewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="34" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="5094" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="882" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/NewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.714765" vertical-offset="1618" max-vertical-offset="2214" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Reviews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/emails/auth/reminder.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="14" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-7.4074073" vertical-offset="124" max-vertical-offset="51876" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/TagsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Guard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="330" column="33" selection-start="7754" selection-end="7754" vertical-scroll-proportion="0.45302013" vertical-offset="5598" max-vertical-offset="11754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="423" selection-end="423" vertical-scroll-proportion="0.42281878" vertical-offset="0" max-vertical-offset="1098" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/News.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="305" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="396" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_ide_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1702" column="74" selection-start="47774" selection-end="47783" vertical-scroll-proportion="0.42602494" vertical-offset="30307" max-vertical-offset="227502" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="2628" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/paths.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9407666" vertical-offset="540" max-vertical-offset="1134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="30" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="3330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="0" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="488" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1386" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/RegistrForm.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="236" selection-end="236" vertical-scroll-proportion="0.21140939" vertical-offset="0" max-vertical-offset="596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/UserLoginForm.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="180" selection-end="180" vertical-scroll-proportion="0.18120806" vertical-offset="0" max-vertical-offset="596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="65" selection-start="1614" selection-end="1641" vertical-scroll-proportion="0.98489934" vertical-offset="313" max-vertical-offset="2340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/OldReviewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="339" column="9" selection-start="11664" selection-end="11664" vertical-scroll-proportion="9.513423" vertical-offset="432" max-vertical-offset="7362" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/SingleReview.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="62" selection-start="1166" selection-end="1166" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="558" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/SuccessAddReview.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="0" selection-end="1678" vertical-scroll-proportion="0.36241612" vertical-offset="0" max-vertical-offset="720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/SuccessEditReview.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-22.666666" vertical-offset="0" max-vertical-offset="720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/FormEditReviews.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="838" selection-end="838" vertical-scroll-proportion="0.49376115" vertical-offset="137" max-vertical-offset="720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/FormAddReviews.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="602" selection-end="602" vertical-scroll-proportion="0.36241612" vertical-offset="0" max-vertical-offset="596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/FindByTag.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/FindByTagReviews.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="14" selection-start="2522" selection-end="3033" vertical-scroll-proportion="-45.333332" vertical-offset="0" max-vertical-offset="1404" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/FindByText.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="266" selection-end="266" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/FindByTextReviews.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="599" selection-end="599" vertical-scroll-proportion="0.39261746" vertical-offset="0" max-vertical-offset="792" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/testconst.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="56" selection-start="76" selection-end="76" vertical-scroll-proportion="0.12080537" vertical-offset="0" max-vertical-offset="596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/ReviewsControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="2158" selection-end="2158" vertical-scroll-proportion="1.2041166" vertical-offset="306" max-vertical-offset="2034" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hello.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="47" selection-start="8248" selection-end="8248" vertical-scroll-proportion="0.6096257" vertical-offset="432" max-vertical-offset="1098" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/SuccessAddUser.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="323" selection-end="323" vertical-scroll-proportion="0.033557046" vertical-offset="124" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/filters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.592592" vertical-offset="502" max-vertical-offset="1368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/curl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="24" selection-end="24" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="2293" selection-end="2302" vertical-scroll-proportion="10.666667" vertical-offset="756" max-vertical-offset="1422">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1553" selection-end="1553" vertical-scroll-proportion="-28.666666" vertical-offset="0" max-vertical-offset="1584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="841" selection-end="841" vertical-scroll-proportion="-16.666666" vertical-offset="0" max-vertical-offset="1098">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ReviewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="578" selection-end="578" vertical-scroll-proportion="-6.6666665" vertical-offset="108" max-vertical-offset="3420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Reviews.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="26" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.7409949" vertical-offset="324" max-vertical-offset="1134">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
           <folding />
         </state>
       </provider>

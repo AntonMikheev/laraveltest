@@ -37,6 +37,14 @@ Route::post('userlogin',array('as' => 'userlogin', 'uses' => 'UserController@cur
 Route::get('userlogout',array('as' => 'userlogout', 'uses' => 'UserController@userLogout'));
 Route::get('islogin',array('as' => 'islogin', 'uses' => 'UserController@isLogin'));
 
+Route::get('sendmailform',array('as' => 'sendmailform', 'uses' => 'MailController@sendMailForm'));
+Route::post('sendmail',array('as' => 'sendmail', 'uses' => 'MailController@sendMail'));
+
+
+Route::get('stringtoarray',array('as' => 'stringtoarray', 'uses' => 'StringController@StringToArray'));
+
+
+
 
 
 

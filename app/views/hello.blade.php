@@ -40,6 +40,8 @@
             <h1>HELLO!</h1>
             <h2>Todo list</h2>
             <h3><a href="{{ URL::route('viewregistrform') }}">Register new user</a><br></h3>
+            <h3><a href="{{ URL::route('stringtoarray') }}">String search</a><br></h3>
+
             <?php $islogin = Session::get('islogin');
                   $name = Session::get('name');
             ?>

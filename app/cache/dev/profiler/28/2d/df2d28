@@ -1,0 +1,876 @@
+a:8:{s:5:"token";s:6:"df2d28";s:6:"parent";N;s:8:"children";a:1:{i:0;s:6:"239dca";}s:4:"data";a:13:{s:6:"config";C:62:"Symfony\Component\HttpKernel\DataCollector\ConfigDataCollector":2538:{a:16:{s:8:"app_name";N;s:11:"app_version";N;s:5:"token";s:6:"df2d28";s:15:"symfony_version";s:5:"2.5.0";s:4:"name";s:3:"app";s:3:"env";s:3:"dev";s:5:"debug";b:1;s:11:"php_version";s:16:"5.5.3-1ubuntu2.6";s:14:"xdebug_enabled";b:0;s:14:"eaccel_enabled";b:0;s:11:"apc_enabled";b:0;s:14:"xcache_enabled";b:0;s:16:"wincache_enabled";b:0;s:20:"zend_opcache_enabled";b:1;s:7:"bundles";a:18:{s:15:"FrameworkBundle";s:90:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle";s:14:"SecurityBundle";s:89:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle";s:10:"TwigBundle";s:85:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle";s:13:"MonologBundle";s:91:"/home/anton/Projects/News-Reader/vendor/symfony/monolog-bundle/Symfony/Bundle/MonologBundle";s:17:"SwiftmailerBundle";s:99:"/home/anton/Projects/News-Reader/vendor/symfony/swiftmailer-bundle/Symfony/Bundle/SwiftmailerBundle";s:13:"AsseticBundle";s:91:"/home/anton/Projects/News-Reader/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle";s:14:"DoctrineBundle";s:95:"/home/anton/Projects/News-Reader/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle";s:26:"SensioFrameworkExtraBundle";s:104:"/home/anton/Projects/News-Reader/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle";s:16:"AppGrabberBundle";s:54:"/home/anton/Projects/News-Reader/src/App/GrabberBundle";s:16:"SonataCoreBundle";s:66:"/home/anton/Projects/News-Reader/vendor/sonata-project/core-bundle";s:17:"SonataBlockBundle";s:67:"/home/anton/Projects/News-Reader/vendor/sonata-project/block-bundle";s:18:"SonatajQueryBundle";s:68:"/home/anton/Projects/News-Reader/vendor/sonata-project/jquery-bundle";s:13:"KnpMenuBundle";s:85:"/home/anton/Projects/News-Reader/vendor/knplabs/knp-menu-bundle/Knp/Bundle/MenuBundle";s:28:"SonataDoctrineORMAdminBundle";s:80:"/home/anton/Projects/News-Reader/vendor/sonata-project/doctrine-orm-admin-bundle";s:17:"SonataAdminBundle";s:67:"/home/anton/Projects/News-Reader/vendor/sonata-project/admin-bundle";s:17:"WebProfilerBundle";s:92:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle";s:24:"SensioDistributionBundle";s:99:"/home/anton/Projects/News-Reader/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle";s:21:"SensioGeneratorBundle";s:93:"/home/anton/Projects/News-Reader/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle";}s:9:"sapi_name";s:14:"apache2handler";}}s:7:"request";C:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector":4997:{a:18:{s:6:"format";s:4:"html";s:7:"content";s:0:"";s:12:"content_type";s:24:"text/html; charset=UTF-8";s:11:"status_text";s:21:"Internal Server Error";s:11:"status_code";i:500;s:13:"request_query";a:1:{s:5:"topic";s:13:"topic/leisure";}s:15:"request_request";a:0:{}s:15:"request_headers";a:8:{s:4:"host";a:1:{i:0;s:7:"grabber";}s:10:"user-agent";a:1:{i:0;s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0";}s:6:"accept";a:1:{i:0;s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";}s:15:"accept-language";a:1:{i:0;s:35:"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3";}s:15:"accept-encoding";a:1:{i:0;s:13:"gzip, deflate";}s:6:"cookie";a:1:{i:0;s:393:"s_lv=1406110605581; __qca=P0-400026492-1406110605588; __gads=ID=666bb220df3a178e:T=1406110606:S=ALNI_MbLqtQsWR7ySetWej9Cf2WCkOcA7g; _exbeacon_persist=2bn86vuuvmaoiyrp; _cb_ls=1; _chartbeat2=CkkOtMwMIESDN9dZd.1406110610658.1406110610658.1; _chartbeat_uuniq=3; PHPSESSID=qkgqr98un1sot8rulg6cqrpc37; s_cc=true; s_dlv=First%20Visit; s_sq=%5B%5BB%5D%5D; has_js=1; _exbeacon_session=2bn86vuuvmaoiyrp";}s:10:"connection";a:1:{i:0;s:10:"keep-alive";}s:14:"x-php-ob-level";a:1:{i:0;i:1;}}s:14:"request_server";a:32:{s:9:"HTTP_HOST";s:7:"grabber";s:15:"HTTP_USER_AGENT";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:11:"HTTP_COOKIE";s:393:"s_lv=1406110605581; __qca=P0-400026492-1406110605588; __gads=ID=666bb220df3a178e:T=1406110606:S=ALNI_MbLqtQsWR7ySetWej9Cf2WCkOcA7g; _exbeacon_persist=2bn86vuuvmaoiyrp; _cb_ls=1; _chartbeat2=CkkOtMwMIESDN9dZd.1406110610658.1406110610658.1; _chartbeat_uuniq=3; PHPSESSID=qkgqr98un1sot8rulg6cqrpc37; s_cc=true; s_dlv=First%20Visit; s_sq=%5B%5BB%5D%5D; has_js=1; _exbeacon_session=2bn86vuuvmaoiyrp";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:4:"PATH";s:28:"/usr/local/bin:/usr/bin:/bin";s:16:"SERVER_SIGNATURE";s:67:"<address>Apache/2.4.6 (Ubuntu) Server at grabber Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:21:"Apache/2.4.6 (Ubuntu)";s:11:"SERVER_NAME";s:7:"grabber";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:36:"/home/anton/Projects/News-Reader/web";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:36:"/home/anton/Projects/News-Reader/web";s:12:"SERVER_ADMIN";s:19:"webmaster@localhost";s:15:"SCRIPT_FILENAME";s:48:"/home/anton/Projects/News-Reader/web/app_dev.php";s:11:"REMOTE_PORT";s:5:"39423";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:19:"topic=topic/leisure";s:11:"REQUEST_URI";s:53:"/app_dev.php/contents/getarticles?topic=topic/leisure";s:11:"SCRIPT_NAME";s:12:"/app_dev.php";s:9:"PATH_INFO";s:21:"/contents/getarticles";s:15:"PATH_TRANSLATED";s:29:"redirect:/app.php/getarticles";s:8:"PHP_SELF";s:33:"/app_dev.php/contents/getarticles";s:18:"REQUEST_TIME_FLOAT";d:1406727064.448;s:12:"REQUEST_TIME";i:1406727064;}s:15:"request_cookies";a:13:{s:4:"s_lv";s:13:"1406110605581";s:5:"__qca";s:26:"P0-400026492-1406110605588";s:6:"__gads";s:69:"ID=666bb220df3a178e:T=1406110606:S=ALNI_MbLqtQsWR7ySetWej9Cf2WCkOcA7g";s:17:"_exbeacon_persist";s:16:"2bn86vuuvmaoiyrp";s:6:"_cb_ls";s:1:"1";s:11:"_chartbeat2";s:47:"CkkOtMwMIESDN9dZd.1406110610658.1406110610658.1";s:16:"_chartbeat_uuniq";s:1:"3";s:9:"PHPSESSID";s:26:"qkgqr98un1sot8rulg6cqrpc37";s:4:"s_cc";s:4:"true";s:5:"s_dlv";s:11:"First Visit";s:4:"s_sq";s:5:"[[B]]";s:6:"has_js";s:1:"1";s:17:"_exbeacon_session";s:16:"2bn86vuuvmaoiyrp";}s:18:"request_attributes";a:8:{s:11:"_controller";s:72:"App\GrabberBundle\Controller\ContentsController::allArticlesOnPageAction";s:6:"_route";s:20:"all_articles_on_page";s:13:"_route_params";a:0:{}s:7:"_method";s:63:"Object(Sensio\Bundle\FrameworkExtraBundle\Configuration\Method)";s:9:"_template";s:67:"Object(Symfony\Bundle\FrameworkBundle\Templating\TemplateReference)";s:14:"_template_vars";s:2:"[]";s:20:"_template_streamable";s:5:"false";s:22:"_template_default_vars";s:14:"[0 => request]";}s:16:"response_headers";a:5:{s:13:"cache-control";a:1:{i:0;s:8:"no-cache";}s:4:"date";a:1:{i:0;s:29:"Wed, 30 Jul 2014 13:31:07 GMT";}s:13:"x-debug-token";a:1:{i:0;s:6:"df2d28";}s:18:"x-debug-token-link";a:1:{i:0;s:29:"/app_dev.php/_profiler/239dca";}s:12:"content-type";a:1:{i:0;s:24:"text/html; charset=UTF-8";}}s:16:"session_metadata";a:0:{}s:18:"session_attributes";a:0:{}s:7:"flashes";a:0:{}s:9:"path_info";s:21:"/contents/getarticles";s:10:"controller";a:4:{s:5:"class";s:47:"App\GrabberBundle\Controller\ContentsController";s:6:"method";s:23:"allArticlesOnPageAction";s:4:"file";s:88:"/home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php";s:4:"line";i:55;}s:6:"locale";s:2:"en";}}s:9:"exception";C:65:"Symfony\Component\HttpKernel\DataCollector\ExceptionDataCollector":90176:{a:1:{s:9:"exception";O:55:"Symfony\Component\HttpKernel\Exception\FlattenException":9:{s:59:" Symfony\Component\Debug\Exception\FlattenException message";s:133:"Notice: Undefined index: posturl in /home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php line 336";s:56:" Symfony\Component\Debug\Exception\FlattenException code";i:0;s:60:" Symfony\Component\Debug\Exception\FlattenException previous";N;s:57:" Symfony\Component\Debug\Exception\FlattenException trace";a:9:{i:0;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:0:"";s:4:"file";s:88:"/home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php";s:4:"line";i:336;s:4:"args";a:0:{}}i:1;a:8:{s:9:"namespace";s:23:"Symfony\Component\Debug";s:11:"short_class";s:12:"ErrorHandler";s:5:"class";s:36:"Symfony\Component\Debug\ErrorHandler";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:88:"/home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php";s:4:"line";i:336;s:4:"args";a:5:{i:0;a:2:{i:0;s:6:"string";i:1;s:1:"8";}i:1;a:2:{i:0;s:6:"string";i:1;s:24:"Undefined index: posturl";}i:2;a:2:{i:0;s:6:"string";i:1;s:88:"/home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php";}i:3;a:2:{i:0;s:6:"string";i:1;s:3:"336";}i:4;a:2:{i:0;s:5:"array";i:1;a:10:{s:3:"url";a:2:{i:0;s:5:"array";i:1;a:2:{s:4:"link";a:2:{i:0;s:6:"string";i:1;s:113:"http://www.examiner.com/article/mexican-makeover-for-pizza?cid=PROG-LeisureBlock1-Article-MexicanMakeoverForPizza";}s:3:"img";a:2:{i:0;s:6:"string";i:1;s:134:"http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/27/53/2753ea1289e86ceab60e1b3bf06052b1.jpg?itok=jtoWPeoC";}}}s:7:"pattern";a:2:{i:0;s:6:"string";i:1;s:29:"/http:\/\/www.examiner.com\//";}s:9:"checklink";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:8:"contents";a:2:{i:0;s:6:"object";i:1;s:33:"App\GrabberBundle\Entity\Contents";}s:7:"article";a:2:{i:0;s:5:"array";i:1;a:10:{s:2:"id";a:2:{i:0;s:6:"string";i:1;s:113:"http://www.examiner.com/article/mexican-makeover-for-pizza?cid=PROG-LeisureBlock1-Article-MexicanMakeoverForPizza";}s:8:"subtopic";a:2:{i:0;s:6:"string";i:1;s:20:"
+Food &amp; Recipes
+";}s:8:"thumbimg";a:2:{i:0;s:6:"string";i:1;s:134:"http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/27/53/2753ea1289e86ceab60e1b3bf06052b1.jpg?itok=jtoWPeoC";}s:5:"title";a:2:{i:0;s:6:"string";i:1;s:28:"
+Mexican makeover for pizza
+";}s:4:"date";a:2:{i:0;s:6:"string";i:1;s:15:"
+July 29, 2014
+";}s:4:"post";a:2:{i:0;s:6:"string";i:1;s:3316:"
+<p>It's a common fact that <a href="/topic/pizza" class="inline_link">pizza</a> is purely <a href="/topic/italian" class="inline_link">Italian</a>.  If you consult an Italian cookbook, however, you'll learn that the true authentic pizza is not made in Italy as it is here in this country!  The true Italian pizza is rather basic and doesn't have a lot of toppings.  I hope to try my hand at preparing pizza the authentic Italian way at some point, but until then, I still know how to make it as we do in the USA!</p><p>Pizza has long been a favorite food of mine, just as <a href="/topic/mexican" class="inline_link">Mexican</a> food is.  I came across a recipe sometime ago that combines these two cuisines into one to create "<a href="/topic/beef" class="inline_link">Beef</a> <a href="/topic/tortilla" class="inline_link">Tortilla</a> Pizza".  This is essentially the pizza principle with Mexican influence.  Not only is this a different way to make pizza, it's also very easy to do.  There is a crust, but you don't have to be concerned with yeast dough or any dough at all, for that matter.  The crust is made of flour tortillas, so you can see that this is going to be a breeze to make.</p><p>To begin, you brown ground beef with onion.  Oregano and salt go in after draining the beef.  You'll be using four 10-inch tortillas and these are brushed with oil and heated in a hot oven for three minutes.  The beef mixture is spooned over each tortilla and topped with chopped tomato, fresh basil, along with mozzarella and Parmesan cheeses.  This goes back into the oven and is baked for 12-14 minutes or until it's browned.  Slice into wedges and dinner is served!</p><p>If you wanted to use the corn tortillas, I'm sure you could.  You would prepare them just as you would in the directions above. Also, if you wanted to make a "personal" pizza, you could use the smaller tortillas, which measure about six inches wide. You could even add more of your own toppings.  Feel free to be creative!  Some suggestions for toppings include chiles, Monterey Jack cheese, and green or red peppers.  If you wanted to, you could even add about a teaspoon of chili powder to the beef mixture. These suggestions would make your pizzas more Mexican!</p><p>Not too long ago, I wrote an article on "Guacamole", which is a favorite condiment that's a great appetizer when you're serving Mexican food.  If you missed this article, click on this link:</p><p><a href="http://www.examiner.com/article/guacamole-a-classic-mexican-favorite">http://www.examiner.com/article/guacamole-a-classic-mexican-favorite</a></p><p>For those times you're in the mood for Mexican food, but pizza would also be something you'd like, combine both ideas in to one dish by following this recipe:</p><p>BEEF TORTILLA PIZZA</p><p>Preheat oven to 400 degrees. Brown the ground beef and onion in a skillet over medium heat for about 8-10 minutes or until beef is no longer pink.  Drain off fat. Stir in the oregano and salt.  Lightly brush tortillas with oil and place on two baking sheets.  Bake in preheated oven for 3 minutes. Spoon the beef mixture evenly over each tortilla.  Top with an equal amount of tomato.  Sprinkle with basil and cheeses.  Return to the oven and bake for 12-14 minutes or until lightly browned.  Yield:  4 10-inch pizzas.</p>
+";}s:7:"postimg";a:2:{i:0;s:6:"string";i:1;s:135:"http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/54/3d/543de515d99e61daa12530866834481b.JPG?itok=qlVAxI1S";}s:11:"author_name";a:2:{i:0;s:6:"string";i:1;s:15:"
+Daniel Dedmon
+";}s:17:"author_avatar_url";a:2:{i:0;s:6:"string";i:1;s:135:"http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/00/60/00609deb3105fa895a708376f0b40ba6.jpg?itok=6UVoxOQr";}s:15:"author_category";a:2:{i:0;s:6:"string";i:1;s:29:"
+Chapel Hill Baking Examiner
+";}}}s:4:"html";a:2:{i:0;s:6:"string";i:1;s:78060:"<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><title>Mexican makeover for pizza - Charlotte Baking | Examiner.com</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="image_src" href="http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/54/3d/543de515d99e61daa12530866834481b.JPG?itok=qlVAxI1S"><meta name="description" content="It&#039;s a common fact that pizza is purely Italian.  If you consult an Italian cookbook, however, you&#039;ll learn that the true authentic pizza is not made in Italy a"><meta property="og:url" content="http://www.examiner.com/article/mexican-makeover-for-pizza?cid=PROG-LeisureBlock1-Article-MexicanMakeoverForPizza"><meta name="dc.date.issued" content="2014-07-29T00:01:37-06:00"><meta name="keywords" content="Summer Cookbook, pizza, mexican, tortilla, Beef, Italian"><link rel="apple-touch-icon" href="http://cdn2-b.examiner.com/apple-touch-icon.png"><meta name="application-name" content="Examiner.com"><link rel="shortcut icon" href="http://cdn2-b.examiner.com/sites/all/themes/jackrabbit/favicon.ico" type="image/vnd.microsoft.icon"><link rel="apple-touch-icon" sizes="144x144" href="http://cdn2-b.examiner.com/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="114x114" href="http://cdn2-b.examiner.com/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="72x72" href="http://cdn2-b.examiner.com/apple-touch-icon-72x72.png"><meta property="og:type" content="article"><meta property="og:title" content="Mexican makeover for pizza"><meta name="twitter:site" content="@examinercom"><meta name="twitter:card" content="summary"><link rel="canonical" href="http://www.examiner.com/article/mexican-makeover-for-pizza"><meta name="Generator" content="Drupal 7 (http://drupal.org)"><meta name="twitter:title" content="Mexican makeover for pizza"><meta name="twitter:description" content="It&amp;#39;s a common fact that pizza is purely Italian."><meta property="og:site_name" content="Examiner.com"><meta http-equiv="Content-Language" content="en"><meta property="fb:app_id" content="113003962065478"><meta property="og:image" content="http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/54/3d/543de515d99e61daa12530866834481b.JPG?itok=qlVAxI1S"><meta name="twitter:image" content="http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/54/3d/543de515d99e61daa12530866834481b.JPG?itok=qlVAxI1S">
+<!--[if lte IE 8]>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/all/libraries/html5shiv-printshiv.js"></script>
+<![endif]-->
+    <link type="text/css" rel="stylesheet" href="http://cdn2-b.examiner.com/sites/default/files/css/css_hWzc1jDssfdKMmv7N08vSyhLyfIOXhnuStOeBJdijPA_410_1.css" media="all"><link type="text/css" rel="stylesheet" href="http://cdn2-b.examiner.com/sites/default/files/css/css_BKhbF02EykLRpLk9EVCROtU_Pl4i8b7EVj4vkQqIkJ4_410_1.css" media="all"><link type="text/css" rel="stylesheet" href="http://cdn2-b.examiner.com/sites/default/files/css/css_y2mSWCBEvYnhch-pZ6wR_Qqs-yUJi5rWTuqkqwizrIc_410_1.css" media="all"><link type="text/css" rel="stylesheet" href="http://cdn2-b.examiner.com/sites/default/files/css/css_Z-_wrlOPOhStUyyagi5f85j_0wK3y9TggIGHAibhro0_410_1.css" media="print">    <script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_oGyUmJGK6NtUWdxEPz3q7-Avp1WNGSnuzLz6b06uI9I_410_1.js?n8vlo1"></script>
+    <script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_3A6CW1L4YRfahfesH6g3ybb3mqvry_yo0FFJLZaZjRE_410_1.js?n8vlo1"></script>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_mM1l1G4Dni41WC5wL6H8K-Df980OMgDGeOeU0-8ha1Q_410_1.js?n8vlo1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$LAB.script("http:\/\/beacon.examiner.com\/header.js?guid=type%3Dnode%26id%3D73128442%26vid%3D222194837%26event%3Dpage_init");
+var _os={"account":"examinercom","dayLightStart":"03\/09\/2014","dayLightEnd":"11\/02\/2014","server":"stats.examiner.com","secureServer":"sstats.examiner.com","namespace":"examinercom","zip":null};
+_os.s = {
+	pageName:"Examiner Article",
+	channel:"Food & Drink",
+	server:"10.146.146.122",
+	pageType:"",
+	prop1:"Food & Recipes",
+	prop2:"",
+	prop3:"",
+	prop4:"ARTICLE EXENTRY:73128442",
+	prop5:"Mexican makeover for pizza",
+	prop6:"Daniel Dedmon",
+	prop7:"EXID:276401 Chapel Hill Baking Examiner",
+	prop8:"EXID:276401",
+	prop9:11,
+	prop10:"National",
+	prop11:"Charlotte",
+	prop12:"story",
+	prop13:"y2014m07d28",
+	prop14:"Baking",
+	prop15:"",
+	prop16:"",
+	prop17:"",
+	prop18:"",
+	prop19:"",
+	prop20:"",
+	prop21:"",
+	prop22:"Chapel Hill Baking Examiner",
+	prop23:"Charlotte:Food & Drink:Food & Recipes:mexican makeover for pizza",
+	prop24:"4031426",
+	prop25:"Charlotte",
+	prop28:"unauthenticated",
+	prop29:"not-newsworthy",
+	prop30:"2011\/06\/13",
+	prop31:718,
+	prop32:"Summer Cookbook:pizza:mexican:tortilla:Beef:Italian",
+	prop33:"evergreen-not-reviewed",
+	prop34:"local-not-reviewed",
+	prop35:"",
+	prop38:"",
+	prop39:0,
+	hier1:"Charlotte:Food & Drink:Food & Recipes:Baking",
+	campaign:"",
+	eVar1:"",
+	eVar2:"",
+	eVar3:"",
+	eVar4:"ARTICLE EXENTRY:73128442",
+	eVar5:"National",
+	eVar6:"Charlotte",
+	eVar7:"",
+	eVar8:"",
+	eVar9:"",
+	eVar10:"",
+	eVar11:"",
+	eVar12:"",
+	eVar13:"",
+	eVar14:"",
+	eVar15:"",
+	eVar16:"",
+	eVar17:"",
+	eVar18:"",
+	eVar19:"",
+	eVar20:"",
+	eVar21:"",
+	eVar22:"",
+	eVar23:"",
+	eVar24:"",
+	eVar25:"",
+	eVar26:"",
+	eVar27:"",
+	eVar28:"",
+	eVar29:"",
+	eVar30:"",
+	events:"event4,event15,event5"
+};
+$LAB.script("http:\/\/cdn2-b.examiner.com\/sites\/all\/modules\/custom\/ex_omniture\/s_code.js?v=n8vlo1").wait(function () {_os.copyVars();s.t();});
+var _qoptions= { qacct: "p-631HUI1Pqfxis" };;
+$LAB.script("http:\/\/edge.quantserve.com\/quant.js");
+var _gaq = _gaq || []; _gaq.push(["_setAccount","UA-18147775-1"]);
+_gaq.push(["_setDomainName",".examiner.com"]);
+_gaq.push(["_setCustomVar",1,"Site-Section","Food & Drink",1]);
+_gaq.push(["_trackPageview"]);
+;
+$LAB.script("http:\/\/www.google-analytics.com\/ga.js");
+var _comscore = _comscore || []; _comscoreData = {"c1":2,"c2":6036472,"options":{"url_append":"comscorekw=FoodRecipes"}}; _comscore.push(_comscoreData);
+$LAB.script("http:\/\/b.scorecardresearch.com\/\/beacon.js").wait(function () {COMSCORE.data = _comscoreData;});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var div_gpt_ad_ex_dart_header_ad;var div_gpt_ad_ex_dart_header_ad_oop;var div_gpt_ad_ex_dart_article_below_comments;var div_gpt_ad_ex_dart_sidebar_ad_block_top;var div_gpt_ad_ex_dart_sidebar_ad_block_bottom;var div_gpt_ad_ex_dart_ncm;var div_gpt_ad_embed_dart_ad;
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _sf_startpt=(new Date()).getTime()
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement("script");
+        gads.async = true;
+        gads.type = "text/javascript";
+        var useSSL = "https:" == document.location.protocol;
+        gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+        var node =document.getElementsByTagName("script")[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function() {div_gpt_ad_ex_dart_header_ad = googletag.defineSlot("/5578/Examiner/cdg.examiner2.charlotte-nc/fd/pos1/article", [[728,90],[950,60],[970,250],[970,90]], "div-gpt-ad-ex-dart-header-ad").setTargeting("dcopt", "ist").setTargeting("pos", 1).setTargeting("tile", 1).addService(googletag.pubads());div_gpt_ad_ex_dart_header_ad_oop = googletag.defineOutOfPageSlot("/5578/Examiner/cdg.examiner2.charlotte-nc/fd/pos1/article", "div-gpt-ad-ex-dart-header-ad-oop").addService(googletag.pubads());div_gpt_ad_ex_dart_article_below_comments = googletag.defineSlot("/5578/Examiner/cdg.examiner2.charlotte-nc/article", [[468,60]], "div-gpt-ad-ex-dart-article-below-comments").setTargeting("pos", 6).setTargeting("tile", 6).addService(googletag.pubads());div_gpt_ad_ex_dart_sidebar_ad_block_top = googletag.defineSlot("/5578/Examiner/cdg.examiner2.charlotte-nc/fd/pos2/article", [[300,250],[300,600],[300,1050]], "div-gpt-ad-ex-dart-sidebar-ad-block-top").setTargeting("pos", 2).setTargeting("tile", 2).addService(googletag.pubads());div_gpt_ad_ex_dart_sidebar_ad_block_bottom = googletag.defineSlot("/5578/Examiner/cdg.examiner2.charlotte-nc/fd/pos4/article", [[300,250]], "div-gpt-ad-ex-dart-sidebar-ad-block-bottom").setTargeting("pos", 4).setTargeting("tile", 4).addService(googletag.pubads());div_gpt_ad_ex_dart_ncm = googletag.defineSlot("/5578/Examiner/cdg.examiner2.charlotte-nc/article", [[728,90]], "div-gpt-ad-ex-dart-ncm").setTargeting("pos", 14).setTargeting("tile", 14).addService(googletag.pubads());div_gpt_ad_embed_dart_ad = googletag.defineSlot("/5578/Examiner/cdg.examiner2.charlotte-nc/fd/pos3/article", [[300,250]], "div-gpt-ad-embed-dart-ad").setTargeting("pos", 3).setTargeting("tile", 3).addService(googletag.pubads());googletag.pubads().setTargeting("tt","baking");googletag.pubads().setTargeting("plc","chapel%20hill");googletag.pubads().setTargeting("uid","4031426");googletag.pubads().setTargeting("etid","276401");googletag.pubads().setTargeting("tablet","o");googletag.pubads().setTargeting("chn","food%20%26%20drink");googletag.pubads().setTargeting("subc","food%20%26%20recipes");googletag.pubads().setTargeting("nid","73128442");googletag.pubads().setTargeting("top",["food%20%26%20drink","food%20%26%20recipes","summer%20cookbook","pizza","mexican","tortilla","beef","italian"]);googletag.pubads().setTargeting("ed","charlotte-nc");googletag.pubads().setTargeting("dc_ref","http%3A%2F%2Fwww.examiner.com%2Farticle%2Fmexican-makeover-for-pizza");googletag.pubads().setTargeting("sect","food%20%26%20recipes");googletag.pubads().setTargeting("pgtp","article");googletag.pubads().setTargeting("vertical","Examiner");googletag.pubads().enableSingleRequest();googletag.enableServices();});
+//--><!]]>
+</script>
+  </head>
+  <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-73128442 node-type-story leisure page-user-no-dashboard has-sidebar" >
+    <div class="accessibility">
+      <a href="#content-wrapper">Skip to main content</a>
+    </div>
+    
+<div class="site-wrapper">
+  <div class="page-wrapper" id="ut_piggyback">
+    
+    <header class="header">
+        <div class="region region--masthead">
+    
+<div id="block--ex_dart-ex_dart_header_ad" class="block block-ex-dart block--odd">
+      
+  <div class="block__content">
+    <div class="dart-ad-content dart-ad-width-">
+    <div id="div-gpt-ad-ex-dart-header-ad">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-header-ad");
+       });
+    </script>
+  </div>
+      <div id='div-gpt-ad-ex-dart-header-ad-oop'>
+      <script type='text/javascript'>
+        googletag.cmd.push(function() {
+          googletag.display('div-gpt-ad-ex-dart-header-ad-oop');
+        });
+      </script>
+    </div>
+  </div>
+  </div>
+  </div>
+
+<div id="block--ex_article-ex_article_facebook_connect" class="block block-ex-article block--even">
+      
+  <div class="block__content">
+    
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '113003962065478',
+      xfbml: true,
+      version: 'v2.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+  </div>
+  </div>
+  </div>
+      <div class="navbar">
+        <div class="limiter limiter--side-padded">
+          <a href="/" class="link logo"><img class="logo__image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/all/themes/jackrabbit/assets/images/examiner-logo-full.png" alt="Examiner.com" /></a>            <div class="region region--navigation">
+    
+<div id="block--ex_taxonomy-superchannel-menu" class="block block-ex-taxonomy block--odd">
+      
+  <div class="block__content">
+    <h2 class="leisure">In Leisure:</h2>
+<div class="ex-taxonomy-superchannel-menu">
+<ul class="leisure"><li class="first"><a href="http://www.examiner.com/food-and-drink">Food &amp; Drink</a></li><li><a href="http://www.examiner.com/travel">Travel</a></li><li><a href="http://www.examiner.com/spa-and-beauty">Spa &amp; Beauty</a></li><li><a href="http://www.examiner.com/autos-and-motorcycles">Autos &amp; Motorcycles</a></li><li class="last"><a href="http://www.examiner.com/bars-and-clubs">Bars &amp; Clubs</a></li></ul></div>
+  </div>
+  </div>
+
+<div id="block--ex_blocks-supplemental" class="block block-ex-blocks block--odd">
+      
+  <div class="block__content">
+    <div class="supplemental-navigation"><div class="social supplemental-navigation__button"><a href="http://www.facebook.com/Examinercom" class="icon icon--replace icon--facebook">Facebook</a><a href="http://twitter.com/examinercom" class="icon icon--replace icon--twitter">Twitter</a><a href="http://plus.google.com/+examinercom/posts" class="icon icon--replace icon--googleplus">GooglePlus</a></div><div class="supplemental-navigation__button search icon icon--replace icon--search"><span class="visuallyhidden">Search</span>
+</div></div>  </div>
+  </div>
+  </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-wrapper">
+      <div class="limiter limiter--padded">
+                        <div class="main main--two-column">
+            <div class="region region--above-content">
+    
+
+
+
+  </div>
+          <div class="content-wrapper">
+            
+            
+            
+              <div class="region region--content">
+    
+
+
+<div id="block--system-main" class="block block-system block--even">
+      
+  <div class="block__content">
+    <article about="/article/mexican-makeover-for-pizza" typeof="schema:NewsArticle sioc:Item foaf:Document" class="article cf article--story article--full cf box box--shadow padding--all leisure">
+        <ol class="breadcrumb nav breadcrumb--article"><li class="first"><a href="/topic/leisure">Leisure</a></li>
+<li class="icon icon--before icon--next"><a href="/food-and-drink">Food &amp; Drink</a></li>
+<li class="last icon icon--before icon--next"><a href="/food-and-recipes">Food &amp; Recipes</a></li>
+</ol>  <header class="article-header margin--bottom padding--half-bottom border border--bottom border--thick leisure node node-story node-promoted mode-full">
+              <h1 property="schema:name dc:title" datatype="" class="node__title">Mexican makeover for pizza</h1>
+      <div class="fb-like" data-href="http://www.examiner.com/article/mexican-makeover-for-pizza" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>            <div class="ex-article-related-topics tag-set"><h4 class="tag-set__title">See also</h4><ul class="tag-set__list"><li class="465401 first"><a href="/topic/summer-cookbook" class="primary-tag" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Summer Cookbook</a></li>
+<li class="34381"><a href="/topic/pizza" class="secondary-tags" typeof="skos:Concept" property="rdfs:label skos:prefLabel">pizza</a></li>
+<li class="45346"><a href="/topic/mexican" class="secondary-tags" typeof="skos:Concept" property="rdfs:label skos:prefLabel">mexican</a></li>
+<li class="651676"><a href="/topic/tortilla" class="secondary-tags" typeof="skos:Concept" property="rdfs:label skos:prefLabel">tortilla</a></li>
+<li class="50201"><a href="/topic/beef" class="secondary-tags" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Beef</a></li>
+<li class="39736 last"><a href="/topic/italian" class="secondary-tags" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Italian</a></li>
+</ul></div>  </header>
+
+  
+  
+  <aside class="promoted-media inset push--bottom">
+          <div class="media media--vertical zoom-inset">
+        <div class="media__img sticker-container">
+          <div class="sticker-container">
+
+
+  <img data-sc="leisure" rel="image_src" class="zoomable" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/54/3d/543de515d99e61daa12530866834481b.JPG?itok=qlVAxI1S" width="555" height="350" alt="&amp;quot;Beef Tortilla Pizza&amp;quot; makes over an Italian dish into a Mexican dish!" title="&amp;quot;Beef Tortilla Pizza&amp;quot; makes over an Italian dish into a Mexican dish!" /></div>                    <div class="media__body caption"><span class="caption__body">&quot;Beef Tortilla Pizza&quot; makes over an Italian dish into a Mexican dish!</span><span class="caption__credit">photo:  http:  honeywhatscooking.com</span><div class="caption--floating"><span class="caption__body">&quot;Beef Tortilla Pizza&quot; makes over an Italian dish into a Mexican dish!</span><span class="caption__credit">photo:  http:  honeywhatscooking.com</span></div></div>        </div>
+      </div>
+    
+    <div class="author media margin--bottom border border--bottom border--thick padding--half-bottom leisure">
+              <div class="media__img image--square-micro margin--half-right">
+          
+  <img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/00/60/00609deb3105fa895a708376f0b40ba6.jpg?itok=6UVoxOQr" width="180" height="180" alt="" />        </div>
+        <div class="media__body">
+          <div class="byline"><a href="/baking-59-in-charlotte/daniel-dedmon" class="author-name">Daniel Dedmon</a><a href="/baking-59-in-charlotte/daniel-dedmon" class="author-title" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Chapel Hill Baking Examiner</a></div>          <ul class="author-links list list--series list--plain"><li class="0 first last"><a href="/user/4031426/4078201/subscribe?destination=node/73128442&amp;render=overlay" class="ocmap ocm-newsletter author-newsletter icon icon--before icon--mail overlay catch">Subscribe</a></li>
+</ul>
+                                
+                  </div>
+          </div>
+
+    
+    <div class="dart-ad-content dart-ad-width-300">
+  <div class="dart-ad-title">Advertisement</div>
+  <div id="div-gpt-ad-embed-dart-ad">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-embed-dart-ad");
+       });
+    </script>
+  </div>
+  </div>
+  </aside>
+  <div class="node__content cf">
+        <div class="article-content article-content--story node--story">
+      <div class="social-widgets leisure"><ul class="list--plain list--inline"><li class="first"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.examiner.com/article/mexican-makeover-for-pizza" class="ribbon ribbon--article-social facebook share--facebook" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Facebook&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]); javascript:window.open(this.href, &#039;sharer&#039;, &#039;height=400,width=600&#039;);return false;"><span class="icon icon--after icon--facebook"><span class="visuallyhidden">Facebook</span></span></a></li>
+<li><a href="https://twitter.com/intent/tweet?url=http%3A//www.examiner.com/article/mexican-makeover-for-pizza&amp;via=examinercom&amp;text=Mexican%20makeover%20for%20pizza" class="ribbon ribbon--article-social twitter share--twitter" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Twitter&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]); javascript:window.open(this.href, &#039;sharer&#039;, &#039;height=400,width=600&#039;);return false;"><span class="icon icon--after icon--twitter"><span class="visuallyhidden">Twitter</span></span></a></li>
+<li><a class="ribbon ribbon--article-social pinterest share--pinterest" id="share--pinterest"><span class="icon icon--after icon--pinterest"><span class="visuallyhidden">Pinterest</span></span></a>
+</li>
+<li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A//www.examiner.com/article/mexican-makeover-for-pizza&amp;title=Mexican%20makeover%20for%20pizza&amp;summary=It%26%2339%3Bs%20a%20common%20fact%20that%20pizza%20is%20purely%20Italian.%20%26nbsp%3BIf%20you%20consult%20an%20Italian%20cookbook%2C%20however%2C%20you%26%2339%3Bll%20learn%20that%20the%20true%20authentic%20pizza%20is%20not%20made%20in%20Italy%20as%20it%20is%20here%20in%20this%20country%21%20%26nbsp%3BThe%20true%20Italian%20pizza%20is%20rather%20basic%20and&amp;source=Examiner.com" class="ribbon ribbon--article-social linkedin share--linkedin" target="_blank" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Linkedin&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]);"><span class="icon icon--after icon--linkedin"><span class="visuallyhidden">Linkedin</span></span></a></li>
+<li><a href="https://plus.google.com/share?url=http%3A//www.examiner.com/article/mexican-makeover-for-pizza" class="ribbon ribbon--article-social googleplus share--googleplus" target="_blank" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Google Plus&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]); javascript:window.open(this.href, &#039;sharer&#039;, &#039;height=400,width=600&#039;);return false;"><span class="icon icon--after icon--googleplus"><span class="visuallyhidden">Google Plus</span></span></a></li>
+<li><a href="#comments" class="ribbon ribbon--article-social comments share--comments icon icon--after icon--chat" data-disqus-identifier="node/73128442" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Comment&#039;, &#039;Clicked&#039;, &#039;Mexican makeover for pizza&#039;, 1, true])" onmouseover="_gaq.push([&#039;_trackEvent&#039;, &#039;Comment&#039;, &#039;Mouse On&#039;, &#039;Mexican makeover for pizza&#039;, 1, true])"><span class="visuallyhidden">Comment</span></a></li>
+<li><a href="/node/73128442/forward?render=overlay" rel="nofollow" title="Email this article" class="overlay catch icon icon--before icon--mail ribbon ribbon--article-social" id="share--email" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Email&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]);"></a></li>
+<li class="last"><a href="/article/mexican-makeover-for-pizza#print" rel="print" title="Print this article" class="icon icon--before icon--print ribbon ribbon--article-social active" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Print&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]);"></a></li>
+</ul></div>            <div class="article-dateline">
+        <div property="dc:date dc:created" content="July 29, 2014" datatype="xsd:dateTime" class="date date--created">July 29, 2014</div>
+      </div>
+            
+  <div property="schema:articleBody content:encoded" class="article__body cf">
+    <p>It's a common fact that <a href="/topic/pizza" class="inline_link">pizza</a> is purely <a href="/topic/italian" class="inline_link">Italian</a>.  If you consult an Italian cookbook, however, you'll learn that the true authentic pizza is not made in Italy as it is here in this country!  The true Italian pizza is rather basic and doesn't have a lot of toppings.  I hope to try my hand at preparing pizza the authentic Italian way at some point, but until then, I still know how to make it as we do in the USA!</p>
+<p>Pizza has long been a favorite food of mine, just as <a href="/topic/mexican" class="inline_link">Mexican</a> food is.  I came across a recipe sometime ago that combines these two cuisines into one to create "<a href="/topic/beef" class="inline_link">Beef</a> <a href="/topic/tortilla" class="inline_link">Tortilla</a> Pizza".  This is essentially the pizza principle with Mexican influence.  Not only is this a different way to make pizza, it's also very easy to do.  There is a crust, but you don't have to be concerned with yeast dough or any dough at all, for that matter.  The crust is made of flour tortillas, so you can see that this is going to be a breeze to make.</p>
+<p>To begin, you brown ground beef with onion.  Oregano and salt go in after draining the beef.  You'll be using four 10-inch tortillas and these are brushed with oil and heated in a hot oven for three minutes.  The beef mixture is spooned over each tortilla and topped with chopped tomato, fresh basil, along with mozzarella and Parmesan cheeses.  This goes back into the oven and is baked for 12-14 minutes or until it's browned.  Slice into wedges and dinner is served!</p>
+<p>If you wanted to use the corn tortillas, I'm sure you could.  You would prepare them just as you would in the directions above. Also, if you wanted to make a "personal" pizza, you could use the smaller tortillas, which measure about six inches wide. You could even add more of your own toppings.  Feel free to be creative!  Some suggestions for toppings include chiles, Monterey Jack cheese, and green or red peppers.  If you wanted to, you could even add about a teaspoon of chili powder to the beef mixture. These suggestions would make your pizzas more Mexican!</p>
+<p>Not too long ago, I wrote an article on "Guacamole", which is a favorite condiment that's a great appetizer when you're serving Mexican food.  If you missed this article, click on this link:</p>
+<p><a href="http://www.examiner.com/article/guacamole-a-classic-mexican-favorite">http://www.examiner.com/article/guacamole-a-classic-mexican-favorite</a></p>
+<p>For those times you're in the mood for Mexican food, but pizza would also be something you'd like, combine both ideas in to one dish by following this recipe:</p>
+<p>BEEF TORTILLA PIZZA</p>
+<ul><li>1 lb. lean ground beef</li>
+<li>1 medium onion, chopped</li>
+<li>1 teaspoon dried oregano</li>
+<li>1 teaspoon salt</li>
+<li>4 large (10 inch) flour tortillas</li>
+<li>vegetable oil for brushing on the tortillas</li>
+<li>1 medium tomato, seeded and chopped</li>
+<li>1 tablespoon thinly sliced fresh basil</li>
+<li>1 cup shredded Mozzarella cheese</li>
+<li>1/4 cup grated Parmesan cheese</li>
+</ul><p>Preheat oven to 400 degrees. Brown the ground beef and onion in a skillet over medium heat for about 8-10 minutes or until beef is no longer pink.  Drain off fat. Stir in the oregano and salt.  Lightly brush tortillas with oil and place on two baking sheets.  Bake in preheated oven for 3 minutes. Spoon the beef mixture evenly over each tortilla.  Top with an equal amount of tomato.  Sprinkle with basil and cheeses.  Return to the oven and bake for 12-14 minutes or until lightly browned.  Yield:  4 10-inch pizzas.</p>
+  </div>
+
+
+      
+            <div class="related-articles push--bottom">
+        <h4 class="flush">Suggested by the author</h4>
+          <div>
+    <div>
+          <div>
+        <a href="/article/tortillas-sweet-and-savory">Tortillas, sweet and savory</a>      </div>
+          <div>
+        <a href="/article/tortilla-wraps">Tortilla wraps</a>      </div>
+          <div>
+        <a href="/article/tortilla-stack-and-ingredient-information">Tortilla stack and ingredient information</a>      </div>
+          <div>
+        <a href="/article/mexican-chocolate-torte">Mexican chocolate torte</a>      </div>
+          <div>
+        <a href="/article/mexican-wedding-cakes">Mexican wedding cakes</a>      </div>
+      </div>
+</div>
+      </div>
+      
+      <div class="social-widgets leisure"><ul class="list--plain list--inline"><li class="first"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.examiner.com/article/mexican-makeover-for-pizza" class="ribbon ribbon--article-social facebook share--facebook" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Facebook&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]); javascript:window.open(this.href, &#039;sharer&#039;, &#039;height=400,width=600&#039;);return false;"><span class="icon icon--after icon--facebook"><span class="visuallyhidden">Facebook</span></span></a></li>
+<li><a href="https://twitter.com/intent/tweet?url=http%3A//www.examiner.com/article/mexican-makeover-for-pizza&amp;via=examinercom&amp;text=Mexican%20makeover%20for%20pizza" class="ribbon ribbon--article-social twitter share--twitter" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Twitter&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]); javascript:window.open(this.href, &#039;sharer&#039;, &#039;height=400,width=600&#039;);return false;"><span class="icon icon--after icon--twitter"><span class="visuallyhidden">Twitter</span></span></a></li>
+<li><a class="ribbon ribbon--article-social pinterest share--pinterest" id="share--pinterest"><span class="icon icon--after icon--pinterest"><span class="visuallyhidden">Pinterest</span></span></a>
+</li>
+<li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A//www.examiner.com/article/mexican-makeover-for-pizza&amp;title=Mexican%20makeover%20for%20pizza&amp;summary=It%26%2339%3Bs%20a%20common%20fact%20that%20pizza%20is%20purely%20Italian.%20%26nbsp%3BIf%20you%20consult%20an%20Italian%20cookbook%2C%20however%2C%20you%26%2339%3Bll%20learn%20that%20the%20true%20authentic%20pizza%20is%20not%20made%20in%20Italy%20as%20it%20is%20here%20in%20this%20country%21%20%26nbsp%3BThe%20true%20Italian%20pizza%20is%20rather%20basic%20and&amp;source=Examiner.com" class="ribbon ribbon--article-social linkedin share--linkedin" target="_blank" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Linkedin&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]);"><span class="icon icon--after icon--linkedin"><span class="visuallyhidden">Linkedin</span></span></a></li>
+<li><a href="https://plus.google.com/share?url=http%3A//www.examiner.com/article/mexican-makeover-for-pizza" class="ribbon ribbon--article-social googleplus share--googleplus" target="_blank" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Google Plus&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]); javascript:window.open(this.href, &#039;sharer&#039;, &#039;height=400,width=600&#039;);return false;"><span class="icon icon--after icon--googleplus"><span class="visuallyhidden">Google Plus</span></span></a></li>
+<li><a href="#comments" class="ribbon ribbon--article-social comments share--comments icon icon--after icon--chat" data-disqus-identifier="node/73128442" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Comment&#039;, &#039;Clicked&#039;, &#039;Mexican makeover for pizza&#039;, 1, true])" onmouseover="_gaq.push([&#039;_trackEvent&#039;, &#039;Comment&#039;, &#039;Mouse On&#039;, &#039;Mexican makeover for pizza&#039;, 1, true])"><span class="visuallyhidden">Comment</span></a></li>
+<li><a href="/node/73128442/forward?render=overlay" rel="nofollow" title="Email this article" class="overlay catch icon icon--before icon--mail ribbon ribbon--article-social" id="share--email" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Email&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]);"></a></li>
+<li class="last"><a href="/article/mexican-makeover-for-pizza#print" rel="print" title="Print this article" class="icon icon--before icon--print ribbon ribbon--article-social active" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Share&#039;, &#039;Print&#039;, &#039;Mexican makeover for pizza&#039;, 1, true]);"></a></li>
+</ul></div>      <ul class="links report"><li class="abuse-report first last"><a href="/abuse/report/node/73128442?render=overlay" title="Report and surface objectionable content with this button." rel="nofollow" class="overlay icon icon--before icon--warning">Report this content</a></li>
+</ul>            
+<div id="taboola-autosized-generated-2r"></div>
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+window._taboola.push({mode: "autosized-generated-2r", tracking: "cid=taboola_inbound", container: "taboola-autosized-generated-2r", target_type:"text"});
+</script>
+    </div>
+  </div>
+
+  </article>
+
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+              <div class="region region--content-bottom">
+    
+<div id="comments" class="block block-ex-blocks block--odd box box--shadow padding--all">
+      
+  <div class="block__content">
+    <div id="disqus_thread"><noscript><p><a href="http://examinersite.disqus.com/?url=http%3A%2F%2Fwww.examiner.com%2Farticle%2Fmexican-makeover-for-pizza">View the discussion thread.</a></p></noscript></div>  </div>
+  </div>
+
+<div id="block--ex_dart-ex_dart_article_below_comments" class="block block-ex-dart block--odd">
+      
+  <div class="block__content">
+    <div class="dart-ad-content dart-ad-width-468">
+  <div class="dart-ad-title">Advertisement</div>
+  <div id="div-gpt-ad-ex-dart-article-below-comments">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-article-below-comments");
+       });
+    </script>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+          </div>
+
+                      <div class="sidebar-wrapper">
+                <div class="region region--sidebar">
+    
+<div id="block--ex_dart-ex_dart_companion_ad_top" class="block block-ex-dart block--even">
+      
+  <div class="block__content">
+    <div id="companion-ad-container"></div>  </div>
+  </div>
+
+
+<div id="block--ex_article-ex_article_next_article" class="block block-ex-article leisure box box--shadow sticker-container block--odd">
+        <h2 class="block__title sticker">
+      Next Article    </h2>
+    
+  <div class="block__content">
+    <a href="/article/short-walk-foraging-downtown-oklahoma-city-part-4-a-series?cid=PROD-redesign-right-next" class="omniture-link-article media media--rev"><img class="media__img" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/9d/63/9d63cbfb50ca352484b9ea56b83b917a.jpg?itok=JsqjY94A" width="180" height="180" alt="Short Walk: Foraging in Downtown Oklahoma City Part 4 in a series " title="Short Walk: Foraging in Downtown Oklahoma City Part 4 in a series " /><div class="media__body"><h2 class="next-article-link media__title">Short Walk: Foraging in Downtown Oklahoma City Part 4 in a series </h2>
+</div></a>  </div>
+  </div>
+
+
+<div id="block--ex_article-ex_article_thumbseed_videos" class="block block-ex-article block--even">
+      
+  <div class="block__content">
+    <h2 class="icon icon--before icon--video">Featured Video</h2>
+<script type="text/javascript" src="http://pshared.5min.com/Scripts/Thumbseed2.js?width=auto&height=140&adUnit=true&textFGColor=%23FFFFFF&textBGColor=%23202020&textLocation=0&thumbnailSize=0&displayHeader=false&sid=1304&headerTextColor=%23000000&textBGColor_MO=%23FFFFFF&textFGColor_MO=%2361B9CE&fallback=310&fallbackType=category&categories=310"></script>
+  </div>
+  </div>
+
+<div id="block--ex_dart-ex_dart_sidebar_ad_block_top" class="block block-ex-dart block--odd">
+      
+  <div class="block__content">
+    <div class="dart-ad-content dart-ad-width-300">
+  <div class="dart-ad-title">Advertisement</div>
+  <div id="div-gpt-ad-ex-dart-sidebar-ad-block-top">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-sidebar-ad-block-top");
+       });
+    </script>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+<div id="block--ex_taxonomy-ex_taxonomy_popular_articles" class="block block-ex-taxonomy block--popular-articles block--discovery box box--shadow padding--all sticker-container tab-toggle block--odd" data-tab-group="discovery" data-tab-name="popular" title="Popular">
+        <h2 class="block__title">
+      <span class="popular-edition-title">Popular in</span>
+<span class="edition">Food & Recipes</span>
+    </h2>
+    
+  <div class="block__content">
+    <div class="block__content"><div class="item-list"><ul class="list"><li class="media first"><div class="media__body">
+  <a href="/article/burn-the-house-down-spicy-cajun-chicken-wings-that-turns-up-the-heat" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/2a/b6/2ab6e4553244c0ae9c7a62b16cd5039c.jpg?itok=UaNiiEtb" width="180" height="180" alt="Burn the house down spicy: Cajun chicken wings that turns up the heat" title="Burn the house down spicy: Cajun chicken wings that turns up the heat" /></a><a href="/article/burn-the-house-down-spicy-cajun-chicken-wings-that-turns-up-the-heat" class="media__title icon icon--before icon--video" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Burn the house down spicy: Cajun chicken wings that turns up the heat</a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/chicken-casserole-recipe-paula-deen-s-amazing-chicken-casserole" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/16/46/1646aa68c3ab4f053fa40e42e672befd.jpg?itok=6sWrF4nJ" width="180" height="180" alt="Chicken casserole recipe:  Paula Deen’s amazing chicken casserole" title="Chicken casserole recipe:  Paula Deen’s amazing chicken casserole" /></a><a href="/article/chicken-casserole-recipe-paula-deen-s-amazing-chicken-casserole" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Paula Deen’s amazing chicken casserole</a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/the-very-best-potato-salad-recipe" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/d9/26/d926327be8c3319f995b7ed856f0950b.jpg?itok=V1yy_PDk" width="180" height="180" alt="The best potato salad" title="The best potato salad" /></a><a href="/article/the-very-best-potato-salad-recipe" class="media__title icon icon--before icon--camera" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">The very best potato salad recipe!</a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/healthy-baking-zucchini-applesauce-oat-muffins" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/76/51/765119b0e70f57d839a19bb8d5d6971f.jpg?itok=QdzKe8RZ" width="180" height="180" alt="Zucchini applesauce oat muffins" title="Zucchini applesauce oat muffins" /></a><a href="/article/healthy-baking-zucchini-applesauce-oat-muffins" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Healthy baking: Zucchini applesauce oat muffins</a></div></li>
+<li class="media last"><div class="media__body">
+  <a href="/article/ten-good-gluten-free-vodkas-for-the-gluten-intolerant" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/cd/ee/cdee41c295c059eebf0629007a7c7e87.jpg?itok=y39ozUkw" width="180" height="180" alt="Gluten-free spirits" title="Gluten-free spirits" /></a><a href="/article/ten-good-gluten-free-vodkas-for-the-gluten-intolerant" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Ten good gluten-free vodkas for the gluten intolerant</a></div></li>
+</ul></div></div>  </div>
+  </div>
+
+
+
+<div id="block--ex_taxonomy-ex_taxonomy_popular_articles_edition" class="block block-ex-taxonomy block--popular-edition-articles block--discovery box box--shadow padding--all sticker-container tab-toggle block--odd" data-tab-group="discovery" data-tab-name="local" title="Local">
+        <h2 class="block__title">
+      <span class="popular-edition-title">Popular in</span>
+<span class="edition">National</span>
+<a href="/location/preferred?popular-edition-block=1" class="change-location">change</a>    </h2>
+    
+  <div class="block__content">
+    <div class="block__content"><div class="item-list"><ul class="list"><li class="media first"><div class="media__body">
+  <a href="/article/huckleberries-and-blueberrie-are-not-the-same" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/c1/f2/c1f284c4f12cdd4c38a1ee0b8ab5d685.jpg?itok=l9LTTEIE" width="180" height="180" alt="Blueberries and Huckleberries" title="Blueberries and Huckleberries" /></a><a href="/article/huckleberries-and-blueberrie-are-not-the-same" class="media__title icon icon--before icon--camera" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Huckleberries and blueberries are not the same</a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/july-30-is-national-chicken-wings-day" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/9e/14/9e14bdd78ecf9d1a2e54d0ae7ab1c40f.jpg?itok=R5dpNJkQ" width="180" height="180" alt="July 29 is National Lasagna Day" title="July 29 is National Lasagna Day" /></a><a href="/article/july-30-is-national-chicken-wings-day" class="media__title icon icon--before icon--camera" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">July 29 is National Chicken Wing Day</a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/stone-fruit-recall-more-stores-added-due-to-listeria-concerns" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/19/60/1960939d55128b94f6d8d012357ff2a7.jpg?itok=GmvDSxP3" width="180" height="180" alt="Stone fruit recall: More stores added due to listeria concerns " title="Stone fruit recall: More stores added due to listeria concerns " /></a><a href="/article/stone-fruit-recall-more-stores-added-due-to-listeria-concerns" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Stone fruit recall: More stores added due to listeria concerns </a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/how-to-preserve-mushrooms-by-canning-pickling-freezing-or-drying" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/9a/d8/9ad8d92436a7be1e04ec6dbdc85ec60c.JPG?itok=sczqA9DX" width="180" height="180" alt="Porcini or bolete mushrooms" title="Porcini or bolete mushrooms" /></a><a href="/article/how-to-preserve-mushrooms-by-canning-pickling-freezing-or-drying" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">How to preserve mushrooms by canning, pickling, freezing or drying</a></div></li>
+<li class="media last"><div class="media__body">
+  <a href="/article/benefits-of-apple-cider-vinegar" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/d2/13/d2138bc4861affc2bda8436497de8080.jpg?itok=748fCg0m" width="180" height="180" alt="Bragg&#039;s apple cider vinegar" title="Bragg&#039;s apple cider vinegar" /></a><a href="/article/benefits-of-apple-cider-vinegar" class="media__title icon icon--before icon--video" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Benefits of apple cider vinegar</a></div></li>
+</ul></div></div>  </div>
+  </div>
+
+
+
+<div id="block--ex_taxonomy-ex_taxonomy_recent_discovery_articles" class="block block-ex-taxonomy block--recent-articles block--discovery box box--shadow padding--all sticker-container tab-toggle block--odd" data-tab-group="discovery" data-tab-name="latest" title="Latest">
+        <h2 class="block__title">
+      <span class="popular-edition-title">Latest in</span>
+<span class="edition">Food & Recipes</span>
+    </h2>
+    
+  <div class="block__content">
+    <div class="block__content"><div class="item-list"><ul class="list"><li class="media first"><div class="media__body">
+  <a href="/article/asparagus-and-vegetable-stromboli-pastry-dinner-baked-into-a-rolled-log" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/70/e6/70e63112a34d06217a5aa70313274da7.jpg?itok=X08KAQ2B" width="180" height="180" alt="Asparagus and vegetable Stromboli: Pastry dinner baked into a rolled log" title="Asparagus and vegetable Stromboli: Pastry dinner baked into a rolled log" /></a><time datetime="2014-07-30T05:01:37-06:00" class="date">July 30, 2014</time>
+<a href="/article/asparagus-and-vegetable-stromboli-pastry-dinner-baked-into-a-rolled-log" class="media__title icon icon--before icon--video" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Asparagus and vegetable Stromboli: Pastry dinner baked into a rolled log</a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/intimate-steak-dinner-for-two" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/2b/25/2b25758a075c812f116e0f8c42f0b8b7.jpg?itok=XiPXgyhD" width="180" height="180" alt="Intimate steak dinner for two" title="Intimate steak dinner for two" /></a><time datetime="2014-07-30T00:01:37-06:00" class="date">July 30, 2014</time>
+<a href="/article/intimate-steak-dinner-for-two" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Intimate steak dinner for two</a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/review-val-s-r-e-d-cheesecake-a-jar" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/99/33/993333b6c98ce99503c1a2aafa7ab07d.jpg?itok=uFjYcrr_" width="180" height="180" alt="VAL&#039;s red velvet cheesecake in a jar" title="VAL&#039;s red velvet cheesecake in a jar" /></a><time datetime="2014-07-30T00:01:27-06:00" class="date">July 30, 2014</time>
+<a href="/article/review-val-s-r-e-d-cheesecake-a-jar" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Review: VAL’s R.E.D. cheesecake in a jar</a></div></li>
+<li class="media"><div class="media__body">
+  <a href="/article/chipotle-celebrates-national-farmers-market-week-with-free-produce" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/15/27/15270180f025c02ecc99cc0c50491a8c.JPG?itok=oUsKkccX" width="180" height="180" alt="Chipotle celebrates National Farmers&#039; Market Week " title="Chipotle celebrates National Farmers&#039; Market Week " /></a><time datetime="2014-07-29T20:28:15-06:00" class="date">July 29, 2014</time>
+<a href="/article/chipotle-celebrates-national-farmers-market-week-with-free-produce" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Chipotle celebrates National Farmers’ Market Week with free produce</a></div></li>
+<li class="media last"><div class="media__body">
+  <a href="/article/quench-summer-thirst-with-watermelon-strawberry-and-lime" class="media__img--rev media__img--image-style-square-thumb-medium" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/15/e3/15e3a4a0e0b6c8b578da93b7d7f7cc3d.jpg?itok=GSfwsRAr" width="180" height="180" alt="Watermelon Thirst Quencher" title="Watermelon Thirst Quencher" /></a><time datetime="2014-07-29T19:26:48-06:00" class="date">July 29, 2014</time>
+<a href="/article/quench-summer-thirst-with-watermelon-strawberry-and-lime" class="media__title" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Food &amp;amp; Recipes&#039;, &#039;Link&#039;]);">Quench summer thirst with watermelon, strawberry, and lime</a></div></li>
+</ul></div></div>  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="block--ex_dart-ex_dart_adblade_article" class="block block-ex-dart block--even">
+      
+  <div class="block__content">
+    <script type="text/javascript"><!--
+  adblade_cid="1990-3469835437";
+  adblade_ad_width="300";
+  adblade_ad_height="600";
+  adblade_ad_host="web.adblade.com";
+//--></script>
+<script type="text/javascript" src="http://web.adblade.com/js/ads/show.js"></script>
+  </div>
+  </div>
+
+
+
+
+
+<div id="block--ex_dart-ex_dart_sidebar_ad_block_bottom" class="block block-ex-dart block--even">
+      
+  <div class="block__content">
+    <div class="dart-ad-content dart-ad-width-300">
+  <div class="dart-ad-title">Advertisement</div>
+  <div id="div-gpt-ad-ex-dart-sidebar-ad-block-bottom">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-sidebar-ad-block-bottom");
+       });
+    </script>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+  </div>
+            </div>
+          
+            <div class="region region--below-content">
+    
+
+<div id="block--ex_article-ex_article_dont_miss" class="block block-ex-article box box--shadow padding--all block--odd">
+        <h2 class="block__title">
+      Leisure    </h2>
+    
+  <div class="block__content">
+    <div class="dont-miss">
+<ul><li>
+<div class="media media--vertical sticker-container leisure">
+<div class="media__body">
+<a href="http://www.examiner.com/list/top-five-ways-to-express-yourself-with-nails?cid=PROG-LeisureDM-List-TopFiveWaysToExpress-072914-2.30pm" class="media__img">
+<img src="http://cdn2-b.examiner.com/sites/default/files/_cdn/editorial/article_dont_miss/072814nailart.jpg" alt="Nail art" title="Nail art" /></a>
+<div class="media__copy">Top 5 ways to express yourself whether your nails are short or long</div>
+</div>
+<div class="sticker sticker--top-right icon icon--camera icon--replace">
+<span class="visuallyhidden">Camera</span>
+ </div>
+<div class="sticker sticker--top-left">Nail Art</div>
+</div>
+</li>
+
+
+
+<li>
+<div class="media media--vertical sticker-container leisure">
+<div class="media__body">
+<a href="http://www.examiner.com/article/these-cars-have-gotten-the-old-heave-ho?cid=PROG-LeisureDM-Slideshow7-TheseCarsHaveGottenTheHeaveHo-072914-2.30pm" class="media__img">
+<img src="http://cdn2-b.examiner.com/sites/default/files/_cdn/editorial/article_dont_miss/072914cars.jpg" alt="Cars" title="Cars" /></a>
+<div class="media__copy">These cars have gotten the heave-ho: Will you miss them when they’re gone?</div>
+</div>
+<div class="sticker sticker--top-right icon icon--camera icon--replace">
+<span class="visuallyhidden">Camera</span>
+</div>
+<div class="sticker sticker--top-left">7 Photos</div>
+</div>
+</li>
+
+ 
+
+<li>
+<div class="media media--vertical sticker-container leisure">
+<div class="media__body">
+<a href="http://www.examiner.com/article/recipes-mini-spinach-quiche?cid=PROG-LeisureDM-Slideshow7-MiniSpinichQuicheRecipe-072914-2.30pm" class="media__img">
+<img src="http://cdn2-b.examiner.com/sites/default/files/_cdn/editorial/article_dont_miss/072914quiche.jpg" alt="Spinach quiche" title="Spinach quiche" /></a>
+<div class="media__copy">Mini spinach quiche are great for party snacks or for appetizers</div>
+</div>
+<div class="sticker sticker--top-right icon icon--camera icon--replace">
+<span class="visuallyhidden">Camera</span>
+</div>
+<div class="sticker sticker--top-left">7 Photos</div>
+</div>
+</li>
+
+ 
+
+<li>
+<div class="media media--vertical sticker-container leisure">
+<div class="media__body">
+<a href="http://www.examiner.com/article/seasonal-five-course-tasting-menu-at-the-peacock-inn-princeton?cid=PROG-LeisureDM-Slideshow6-SeasonalFiveCourseTasting-072914-2.30pm" class="media__img">
+<img src="http://cdn2-b.examiner.com/sites/default/files/_cdn/editorial/article_dont_miss/072914peacockinn.jpg" alt="Peacock Inn" title="Peacock Inn" /></a>
+<div class="media__copy">Seasonal five course tasting menu at The Peacock Inn in Princeton</div>
+</div>
+<div class="sticker sticker--top-right icon icon--camera icon--replace">
+<span class="visuallyhidden">Camera</span>
+ </div>
+<div class="sticker sticker--top-left">6 Photos</div>
+</div>
+</li>
+
+ 
+
+<li>
+<div class="media media--vertical sticker-container leisure">
+<div class="media__body">
+<a href="http://www.examiner.com/article/new-wonder-woman-makeup-looks-like-kim-kardashian?cid=PROG-LeisureDM-Slideshow8-NewWonderWomanMakeup-072914-2.30pm" class="media__img">
+<img src="http://cdn2-b.examiner.com/sites/default/files/_cdn/editorial/article_dont_miss/072914wwmakeup.jpg" alt="Makeup" title="Top outdoor activities" /></a>
+<div class="media__copy">Is the new Wonder Woman makeup similar to Kim Kardashian's look?</div>
+</div>
+<div class="sticker sticker--top-right icon icon--camera icon--replace">
+<span class="visuallyhidden">Camera</span>
+</div>
+<div class="sticker sticker--top-left">8 Photos</div>
+</div>
+</li>
+
+ 
+
+<li>
+<div class="media media--vertical sticker-container leisure">
+<div class="media__body">
+<a href="http://www.examiner.com/article/the-wave-of-wavy-hair?cid=PROG-LeisureDM-Slideshow7-WavyHair-072914-2.30pm" class="media__img">
+<img src="http://cdn2-b.examiner.com/sites/default/files/_cdn/editorial/article_dont_miss/072914wavyhair.jpg" alt="Wavy hair tips" title="Wavy hair tips" /></a>
+<div class="media__copy">Grab your flat iron and start curling with it to get these beautiful waves</div>
+</div>
+<div class="sticker sticker--top-right icon icon--camera icon--replace">
+<span class="visuallyhidden">Camera</span>
+</div>
+<div class="sticker sticker--top-left">7 Photos</div>
+</div>
+</li>
+
+ 
+</ul></div>  </div>
+  </div>
+
+  </div>
+            <div class="region region--above-footer">
+    
+<div id="block--ex_dart-ex_dart_ncm" class="block block-ex-dart block--odd">
+      
+  <div class="block__content">
+    <div class="dart-ad-content dart-ad-width-">
+    <div id="div-gpt-ad-ex-dart-ncm">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-ncm");
+       });
+    </script>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="limiter limiter--side-padded">
+          <div class="region region--footer">
+    
+<div id="block--ex_blocks-examiner_site_social_media" class="block block-ex-blocks block--even">
+      
+  <div class="block__content">
+    <ul><li><a class="icon icon--replace icon--facebook" href="http://www.facebook.com/Examinercom"></a></li>
+         <li><a class="icon icon--replace icon--twitter" href="http://twitter.com/examinercom/"></a></li>
+         <li><a class="icon icon--replace icon--linkedin" href="http://www.linkedin.com/company/examiner.com"></a></li>
+         <li><a class="icon icon--replace icon--googleplus" href="http://plus.google.com/+examinercom/posts"></a></li>
+         <li><a class="icon icon--replace icon--pinterest" href="http://pinterest.com/examinercom/"></a></li>
+      </ul>  </div>
+  </div>
+
+<div id="block--ex_blocks-company" class="block block-ex-blocks block--odd">
+        <h2 class="block__title">
+      Company Links    </h2>
+    
+  <div class="block__content">
+    <ul class="list list--two-column"><li class="0 first"><a href="http://www.examiner.com/About_Examiner" title="">About us</a></li>
+<li class="1"><a href="http://examinerontopic.com" title="OnTopic landing page">OnTopic custom content</a></li>
+<li class="2"><a href="http://www.examiner.com/Advertise" class="advertise">Advertise with us</a></li>
+<li class="3"><a href="http://www.examiner.com/careers" class="careers">Career opportunities</a></li>
+<li class="7 last"><a href="http://www.examiner.com/sitemap" class="sitemap">Sitemap</a></li>
+</ul>  </div>
+  </div>
+<div class="legal text--center" id="footer-copyright-and-terms"><span class="copyright"><a href="http://www.examiner.com/">Examiner.com Entertainment</a> &#124; AXS Network &#124; &copy; 2006-2014 AXS Digital Group LLC d/b/a <a href="http://www.examiner.com/">Examiner.com &#124;</a></span> <a href="http://www.examiner.com/privacy_policy">Privacy Policy</a> &#124; <a href="http://www.examiner.com/Terms_of_Use.html">Terms of Use</a> &#124; <a href="http://www.examiner.com/about">About us</a></div>
+  </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="navigation-wrapper">
+      <div class="region region--navigation-drawer">
+    
+<div id="block--ex_taxonomy-hamburger-menu" class="block block-ex-taxonomy block--even">
+        <h2 class="block__title">
+      Choose a Topic    </h2>
+    
+  <div class="block__content">
+    <ul class="navigation-menu"><li class="arts--entertainment first"><a href="http://www.examiner.com/arts-and-entertainment">Arts &amp; Entertainment</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/arts-and-entertainment">Arts &amp; Entertainment</a></h2><ul><li class="first"><a href="http://www.examiner.com/music">Music</a></li><li><a href="http://www.examiner.com/movies">Movies</a></li><li><a href="http://www.examiner.com/tv">TV</a></li><li><a href="http://www.examiner.com/arts-and-exhibits">Arts &amp; Exhibits</a></li><li><a href="http://www.examiner.com/performing-arts">Performing Arts</a></li><li><a href="http://www.examiner.com/topic/reality-tv">Reality TV</a></li><li><a href="http://www.examiner.com/celebrity">Celebrity</a></li><li><a href="http://www.examiner.com/topic/pop-culture">Pop Culture</a></li><li><a href="http://www.examiner.com/animation">Animation</a></li><li><a href="http://www.examiner.com/topic/young-adult-fiction">Young Adult Fiction</a></li><li><a href="http://www.examiner.com/books">Books</a></li><li><a href="http://www.examiner.com/topic/movie-review">Movie Reviews</a></li><li class="last"><a href="http://www.examiner.com/topic/comic-books">Comic Books</a></li></ul></div></li><li class="axs-entertainment"><a href="http://www.examiner.com/axs-entertainment">AXS Entertainment</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/axs-entertainment">AXS Entertainment</a></h2><ul><li class="first"><a href="http://www.examiner.com/music">Music</a></li><li><a href="http://www.examiner.com/movies">Movies</a></li><li><a href="http://www.examiner.com/tv">TV</a></li><li><a href="http://www.examiner.com/arts-and-exhibits">Arts &amp; Exhibits</a></li><li><a href="http://www.examiner.com/performing-arts">Performing Arts</a></li><li><a href="http://www.examiner.com/nfl">NFL</a></li><li><a href="http://www.examiner.com/nhl">NHL</a></li><li><a href="http://www.examiner.com/mlb">MLB</a></li><li><a href="http://www.examiner.com/nba">NBA</a></li><li><a href="http://www.examiner.com/fight-sports">Fight Sports</a></li><li><a href="http://www.examiner.com/soccer">Soccer</a></li><li><a href="http://www.examiner.com/recreational-sports">Recreational Sports</a></li><li><a href="http://www.examiner.com/topic/reality-tv">Reality TV</a></li><li class="last"><a href="http://www.examiner.com/topic/music-festivals">Music Festivals</a></li></ul></div></li><li class="news"><a href="http://www.examiner.com/news">News</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/news">News</a></h2><ul><li class="first"><a href="http://www.examiner.com/politics">Politics</a></li><li><a href="http://www.examiner.com/business-and-finance">Business &amp; Finance</a></li><li><a href="http://www.examiner.com/topic/strange-news">Strange News</a></li><li><a href="http://www.examiner.com/crime-and-courts">Crime &amp; Courts</a></li><li><a href="http://www.examiner.com/topic/extreme-weather">Extreme Weather</a></li><li><a href="http://www.examiner.com/small-business">Small Business</a></li><li><a href="http://www.examiner.com/science-and-space">Science &amp; Space</a></li><li><a href="http://www.examiner.com/stock-market">Stock Market</a></li><li><a href="http://www.examiner.com/topic/gun-control">Gun Control</a></li><li><a href="http://www.examiner.com/topic/same-sex-marriage">Same-Sex Marriage</a></li><li><a href="http://www.examiner.com/topic/global-warming">Global Warming</a></li><li><a href="http://www.examiner.com/personal-finance">Personal Finance</a></li><li><a href="http://www.examiner.com/democrat">Democrat</a></li><li><a href="http://www.examiner.com/republican">Republican</a></li><li><a href="http://www.examiner.com/political-buzz">Political Buzz</a></li><li><a href="http://www.examiner.com/environment">Environment</a></li><li class="last"><a href="http://www.examiner.com/marketing-and-pr">Marketing and PR</a></li></ul></div></li><li class="life"><a href="http://www.examiner.com/topic/life">Life</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/topic/life">Life</a></h2><ul><li class="first"><a href="http://www.examiner.com/home-and-living">Home &amp; Living</a></li><li><a href="http://www.examiner.com/pets">Pets</a></li><li><a href="http://www.examiner.com/family-and-parenting">Family &amp; Parenting</a></li><li><a href="http://www.examiner.com/fashion">Fashion</a></li><li><a href="http://www.examiner.com/health-and-fitness">Health &amp; Fitness</a></li><li><a href="http://www.examiner.com/topic/education">Education</a></li><li><a href="http://www.examiner.com/religion-and-spirituality">Religion &amp; Spirituality</a></li><li><a href="http://www.examiner.com/weight-loss-and-dieting">Weight Loss &amp; Dieting</a></li><li><a href="http://www.examiner.com/weddings">Weddings</a></li><li><a href="http://www.examiner.com/gardening">Gardening</a></li><li><a href="http://www.examiner.com/home-improvement">Home Improvement</a></li><li><a href="http://www.examiner.com/relationships">Relationships</a></li><li><a href="http://www.examiner.com/green-living">Green Living</a></li><li><a href="http://www.examiner.com/nutrition">Nutrition</a></li><li><a href="http://www.examiner.com/neighborhoods">Neighborhoods</a></li><li><a href="http://www.examiner.com/careers-and-workplace">Careers &amp; Workplace</a></li><li><a href="http://www.examiner.com/sales-and-deals">Sales &amp; Deals</a></li><li><a href="http://www.examiner.com/healthcare">Healthcare</a></li><li><a href="http://www.examiner.com/jobs">Jobs</a></li><li class="last"><a href="http://www.examiner.com/hobbies">Hobbies</a></li></ul></div></li><li class="leisure"><a href="http://www.examiner.com/topic/leisure">Leisure</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/topic/leisure">Leisure</a></h2><ul><li class="first"><a href="http://www.examiner.com/food-and-drink">Food &amp; Drink</a></li><li><a href="http://www.examiner.com/travel">Travel</a></li><li><a href="http://www.examiner.com/spa-and-beauty">Spa &amp; Beauty</a></li><li><a href="http://www.examiner.com/autos-and-motorcycles">Autos &amp; Motorcycles</a></li><li><a href="http://www.examiner.com/bars-and-clubs">Bars &amp; Clubs</a></li><li><a href="http://www.examiner.com/topic/recipes">Recipes</a></li><li><a href="http://www.examiner.com/drinks">Drinks</a></li><li><a href="http://www.examiner.com/budget-travel">Budget Travel</a></li><li><a href="http://www.examiner.com/diy-mechanic">DIY Mechanic</a></li><li><a href="http://www.examiner.com/auto-reviews">Auto Reviews</a></li><li><a href="http://www.examiner.com/natural-beauty">Natural Beauty</a></li><li><a href="http://www.examiner.com/topic/luxury-travel">Luxury Travel</a></li><li><a href="http://www.examiner.com/topic/makeup">Makeup</a></li><li class="last"><a href="http://www.examiner.com/hair-and-nails">Hair &amp; Nails</a></li></ul></div></li><li class="sports"><a href="http://www.examiner.com/sports">Sports</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/sports">Sports</a></h2><ul><li class="first"><a href="http://www.examiner.com/mlb">MLB</a></li><li><a href="http://www.examiner.com/nfl">NFL</a></li><li><a href="http://www.examiner.com/nba">NBA</a></li><li><a href="http://www.examiner.com/nhl">NHL</a></li><li><a href="http://www.examiner.com/soccer">Soccer</a></li><li><a href="http://www.examiner.com/fight-sports">Fight Sports</a></li><li><a href="http://www.examiner.com/recreational-sports">Recreational Sports</a></li><li><a href="http://www.examiner.com/college-sports">College Sports</a></li><li><a href="http://www.examiner.com/general-sports">General Sports</a></li><li><a href="http://www.examiner.com/fantasy-sports">Fantasy Sports</a></li><li><a href="http://www.examiner.com/motorsports">Motorsports</a></li><li><a href="http://www.examiner.com/hunting-and-fishing">Hunting &amp; Fishing</a></li><li><a href="http://www.examiner.com/hiking">Hiking</a></li><li><a href="http://www.examiner.com/topic/camping">Camping</a></li><li><a href="http://www.examiner.com/running">Running</a></li><li><a href="http://www.examiner.com/equestrian">Equestrian</a></li><li><a href="http://www.examiner.com/water-sports">Water Sports</a></li><li><a href="http://www.examiner.com/action-sports">Action Sports</a></li><li><a href="http://www.examiner.com/endurance-sports">Endurance Sports</a></li><li class="last"><a href="http://www.examiner.com/topic/recreation">Recreation</a></li></ul></div></li><li class="tech"><a href="http://www.examiner.com/tech">Tech</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/tech">Tech</a></h2><ul><li class="first"><a href="http://www.examiner.com/gadgets-and-tech">Gadgets &amp; Tech</a></li><li><a href="http://www.examiner.com/games">Video Games</a></li><li><a href="http://www.examiner.com/internet">Internet</a></li><li><a href="http://www.examiner.com/tech-gear">Tech Gear</a></li><li><a href="http://www.examiner.com/topic/tablets">Tablets</a></li><li><a href="http://www.examiner.com/topic/iphone">iPhone</a></li><li><a href="http://www.examiner.com/topic/google-glass">Google Glass</a></li><li><a href="http://www.examiner.com/topic/wearable-tech">Wearable Tech</a></li><li><a href="http://www.examiner.com/topic/xbox-one">Xbox One</a></li><li><a href="http://www.examiner.com/topic/playstation-4">Playstation 4</a></li><li><a href="http://www.examiner.com/photography">Photography</a></li><li><a href="http://www.examiner.com/mmogs">MMOGs</a></li><li><a href="http://www.examiner.com/handheld-games">Handheld Games</a></li><li><a href="http://www.examiner.com/topic/facebook">Facebook</a></li><li><a href="http://www.examiner.com/topic/anonymous">Anonymous</a></li><li><a href="http://www.examiner.com/social-media">Social Media</a></li><li><a href="http://www.examiner.com/consoles">Consoles</a></li><li><a href="http://www.examiner.com/topic/bitcoin">Bitcoin</a></li><li><a href="http://www.examiner.com/topic/google">Google</a></li><li class="last"><a href="http://www.examiner.com/topic/twitter">Twitter</a></li></ul></div></li><li class="video"><a href="http://www.examiner.com/video-portal">Video</a></li><li class="user-login last"><a href="http://www.examiner.com/user/login">Log In / Register</a></li></ul>  </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+  <div class="region region--hidden">
+    
+<div id="block--ex_search-ex_searchbox" class="block block-ex-search block--odd">
+      
+  <div class="block__content">
+    <form action="http://www.examiner.com/search/google" id="cse-search-box">
+  <div>
+  <input type="text" class="main-search" name="query" value="" size="38" title="Search this site" />
+  <input type="hidden" name="cx" value="partner-pub-7479725245717969:9ze01gmnpyp" />
+  <input type="hidden" name="cof" value="FORID:9" />
+  <input type="hidden" name="ie" value="ISO-8859-1" />
+  <button class="search-button ocmap ocm-search form-submit" id="edit-search-form-submit" name="sa" value="Search" type="submit">Search</button>  </div>
+</form>
+  </div>
+  </div>
+  </div>
+    <script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_l1rAX1tif4jtO95XiRTA_ZQq5hnC_Mbha0wdOmqTn60_410_1.js?n8vlo1"></script>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_i4VC0hteAii7iinhG4S7TPQNevfTcKGZPhxGKbddLAQ_410_1.js?n8vlo1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _ex_beacon="type=node&id=73128442&vid=222194837&event=dom_ready", _ex_beacon_url="http://beacon.examiner.com";
+$LAB.script("http:\/\/beacon.examiner.com");
+$LAB.script("http:\/\/www.google.com\/cse\/brand?form=cse-search-box&lang=en");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_SHs0jXwAJZUzqmbBP4gjwT1WrhZ7qyQvlf0xKbx0RUw_410_1.js?n8vlo1"></script>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_8CzoOm9cL2k5vU3NXwHVkVckkSRUgY1JSzGEnrZmBmU_410_1.js?n8vlo1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"jackrabbit","theme_token":"jsY5rN5jnZ54ptJHg-lw_e0GNoCLy4Dwdri07PeFFYc","js":{"public:\/\/js\/js_oGyUmJGK6NtUWdxEPz3q7-Avp1WNGSnuzLz6b06uI9I_410_1.js":1,"public:\/\/js\/js_3A6CW1L4YRfahfesH6g3ybb3mqvry_yo0FFJLZaZjRE_410_1.js":1,"public:\/\/js\/js_mM1l1G4Dni41WC5wL6H8K-Df980OMgDGeOeU0-8ha1Q_410_1.js":1,"LABjs.stats":1,"examiner.page_init.labjs":1,"omniture.labjs":1,"0":1,"quantcast.labjs":1,"1":1,"googleanalytics.labjs":1,"comscore.labjs":1,"2":1,"3":1,"LABjs.footer":1,"adexcite.labjs":1,"public:\/\/js\/js_l1rAX1tif4jtO95XiRTA_ZQq5hnC_Mbha0wdOmqTn60_410_1.js":1,"public:\/\/js\/js_i4VC0hteAii7iinhG4S7TPQNevfTcKGZPhxGKbddLAQ_410_1.js":1,"LABjs.header":1,"examiner.dom_ready.labjs":1,"public:\/\/js\/js_SHs0jXwAJZUzqmbBP4gjwT1WrhZ7qyQvlf0xKbx0RUw_410_1.js":1,"googlecse.labjs":1,"public:\/\/js\/js_8CzoOm9cL2k5vU3NXwHVkVckkSRUgY1JSzGEnrZmBmU_410_1.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/achievements-7.x-1.x-dev\/achievements.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/themes\/jackrabbit\/assets\/styles\/anonymous.css":1,"sites\/all\/themes\/jackrabbit\/assets\/styles\/print.css":1}},"basePrefix":"","jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"isMobile":false,"omnitureShare":{"addOmniture":["facebook","twitter","pinterest","linkedin","googleplus","email","print"],"data":{"primary_tag":"Summer Cookbook","secondary_tags":"pizza","etid":"276401","nid":"73128442"}},"disqus":{"domain":"examinersite","url":"http:\/\/www.examiner.com\/article\/mexican-makeover-for-pizza","title":"Mexican makeover for pizza","identifier":"node\/73128442"},"ex_taxonomy":{"discovery_term_name":"Food \u0026 Recipes"}});
+//--><!]]>
+</script>
+      <div class="region region--page-bottom">
+    <!-- start chartbeat beacon -->
+<script type='text/javascript'>
+  var _sf_async_config={};
+  /** CONFIGURATION START **/
+  _sf_async_config.uid = 45966;
+  _sf_async_config.domain = 'examiner.com';
+  _sf_async_config.sections = 'Food & Drink';
+  _sf_async_config.authors = 'Daniel Dedmon';
+  /** CONFIGURATION END **/
+  (function(){
+    function loadChartbeat()
+    { window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); }
+
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+    loadChartbeat : function()
+    { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!-- end chartbeat -->
+<!-- start casale beacon -->
+<!-- Casale Media: Pop Under -->
+<script type="text/javascript" id="casale-tag"><!--
+  var casaleD=new Date();
+  var casaleR=(casaleD.getTime()%8673806982)+Math.random();
+  var casaleU=escape(window.location.href);
+  var casaleHost=' type="text/javascript" src="http://as.casalemedia.com/s?s=';
+  document.write('<scr'+'ipt'+casaleHost+'107527&amp;u=');
+  document.write(casaleU+'&amp;f=1&amp;id='+casaleR+'"><\/scr'+'ipt>');
+//--></script>
+<!-- DO NOT MODIFY -->
+<!-- end casale -->
+<!-- start comscore beacon -->
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6036472&amp;cv=1.3&amp;cj=1&amp;c4=http%3A//www.examiner.com/article/mexican-makeover-for-pizza" width="0" height="0" alt="" />
+</noscript>
+<!-- end comscore -->
+<!-- start googleanalytics beacon -->
+<!-- end googleanalytics -->
+<!-- start omniture SiteCatalyst beacon: code version H.21 Copyright 1997-2010 Omniture, Inc. More info available at http://www.omniture.com -->
+<noscript>
+  <div><a href="http://www.omniture.com" title="Web Analytics">
+    <img src="http://stats.examiner.com/b/ss/examinercom/1/H.21--NS/0/1946021" height="1" width="1" alt="" />
+  </a></div>
+</noscript><!--/DO NOT REMOVE/-->
+<!-- End omniture beacon ?> -->
+<!-- start quantcast beacon -->
+<noscript>
+  <div><img src="http://pixel.quantserve.com/pixel/p-631HUI1Pqfxis.gif" height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+<!-- end quantcast -->
+<!-- start examiner beacon -->
+<noscript><div id="ex_beacon"><img src="http://beacon.examiner.com/beacon.gif?guid=type=node&id=73128442&vid=222194837&event=no_script" style="display:none" width="0" height="0" alt=""/></div></noscript>
+<!-- end examiner beacon -->
+<!-- start taboola_page beacon -->
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+window._taboola.push({article: "auto"});
+</script>
+<script type="text/javascript" src="http://cdn.taboolasyndication.com/libtrc/examiner/loader.js"></script>
+<!-- end taboola_page -->
+  </div>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$LAB.script("http:\/\/adexcite.com\/ads\/video\/controller.php?eid=10327&position=bottom");
+//--><!]]>
+</script>
+      <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-4.newrelic.com","7ee976af5d","1864700","YQZbNksAXEZTUkRaWVhMeAFNCF1bHVRIbEZZF0kNTBNAXG1ZVVJAXwZKFmYPXVFXbkNbWUE=",0,287,new Date().getTime(),"","","","",""]);</script></body>
+</html>
+";}s:8:"document";a:2:{i:0;s:6:"object";i:1;s:31:"App\GrabberBundle\Libs\Nokogiri";}s:10:"img_avatar";a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:5:"array";i:1;a:5:{s:6:"typeof";a:2:{i:0;s:6:"string";i:1;s:10:"foaf:Image";}s:3:"src";a:2:{i:0;s:6:"string";i:1;s:135:"http://cdn2-b.examiner.com/sites/default/files/styles/square_thumb_medium/hash/00/60/00609deb3105fa895a708376f0b40ba6.jpg?itok=6UVoxOQr";}s:5:"width";a:2:{i:0;s:6:"string";i:1;s:3:"180";}s:6:"height";a:2:{i:0;s:6:"string";i:1;s:3:"180";}s:3:"alt";a:2:{i:0;s:6:"string";i:1;s:0:"";}}}}}s:11:"img_article";a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:5:"array";i:1;a:9:{s:7:"data-sc";a:2:{i:0;s:6:"string";i:1;s:7:"leisure";}s:3:"rel";a:2:{i:0;s:6:"string";i:1;s:9:"image_src";}s:5:"class";a:2:{i:0;s:6:"string";i:1;s:8:"zoomable";}s:6:"typeof";a:2:{i:0;s:6:"string";i:1;s:10:"foaf:Image";}s:3:"src";a:2:{i:0;s:6:"string";i:1;s:135:"http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/54/3d/543de515d99e61daa12530866834481b.JPG?itok=qlVAxI1S";}s:5:"width";a:2:{i:0;s:6:"string";i:1;s:3:"555";}s:6:"height";a:2:{i:0;s:6:"string";i:1;s:3:"350";}s:3:"alt";a:2:{i:0;s:6:"string";i:1;s:79:"&quot;Beef Tortilla Pizza&quot; makes over an Italian dish into a Mexican dish!";}s:5:"title";a:2:{i:0;s:6:"string";i:1;s:79:"&quot;Beef Tortilla Pizza&quot; makes over an Italian dish into a Mexican dish!";}}}}}s:16:"img_article_resp";a:2:{i:0;s:6:"string";i:1;s:135:"http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/54/3d/543de515d99e61daa12530866834481b.JPG?itok=qlVAxI1S";}}}}}i:2;a:8:{s:9:"namespace";s:28:"App\GrabberBundle\Controller";s:11:"short_class";s:18:"ContentsController";s:5:"class";s:47:"App\GrabberBundle\Controller\ContentsController";s:4:"type";s:2:"->";s:8:"function";s:10:"getArticle";s:4:"file";s:88:"/home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php";s:4:"line";i:74;s:4:"args";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{s:4:"link";a:2:{i:0;s:6:"string";i:1;s:113:"http://www.examiner.com/article/mexican-makeover-for-pizza?cid=PROG-LeisureBlock1-Article-MexicanMakeoverForPizza";}s:3:"img";a:2:{i:0;s:6:"string";i:1;s:134:"http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/27/53/2753ea1289e86ceab60e1b3bf06052b1.jpg?itok=jtoWPeoC";}}}}}i:3;a:8:{s:9:"namespace";s:28:"App\GrabberBundle\Controller";s:11:"short_class";s:18:"ContentsController";s:5:"class";s:47:"App\GrabberBundle\Controller\ContentsController";s:4:"type";s:2:"->";s:8:"function";s:23:"allArticlesOnPageAction";s:4:"file";N;s:4:"line";N;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}}}i:4;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:20:"call_user_func_array";s:4:"file";s:56:"/home/anton/Projects/News-Reader/app/bootstrap.php.cache";s:4:"line";i:2947;s:4:"args";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:47:"App\GrabberBundle\Controller\ContentsController";}i:1;a:2:{i:0;s:6:"string";i:1;s:23:"allArticlesOnPageAction";}}}i:1;a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}}}}}i:5;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:9:"handleRaw";s:4:"file";s:56:"/home/anton/Projects/News-Reader/app/bootstrap.php.cache";s:4:"line";i:2909;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}}}i:6;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:56:"/home/anton/Projects/News-Reader/app/bootstrap.php.cache";s:4:"line";i:3058;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:7;a:8:{s:9:"namespace";s:48:"Symfony\Component\HttpKernel\DependencyInjection";s:11:"short_class";s:24:"ContainerAwareHttpKernel";s:5:"class";s:73:"Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:56:"/home/anton/Projects/News-Reader/app/bootstrap.php.cache";s:4:"line";i:2308;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:8;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:6:"Kernel";s:5:"class";s:35:"Symfony\Component\HttpKernel\Kernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:48:"/home/anton/Projects/News-Reader/web/app_dev.php";s:4:"line";i:28;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}}}}s:57:" Symfony\Component\Debug\Exception\FlattenException class";s:55:"Symfony\Component\Debug\Exception\ContextErrorException";s:62:" Symfony\Component\Debug\Exception\FlattenException statusCode";i:500;s:59:" Symfony\Component\Debug\Exception\FlattenException headers";a:0:{}s:56:" Symfony\Component\Debug\Exception\FlattenException file";s:88:"/home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php";s:56:" Symfony\Component\Debug\Exception\FlattenException line";i:336;}}}s:6:"events";C:61:"Symfony\Component\HttpKernel\DataCollector\EventDataCollector":17029:{a:2:{s:16:"called_listeners";a:28:{s:92:"kernel.request.Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:63:"Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener";s:6:"method";s:12:"injectLogger";s:4:"file";s:127:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ErrorsLoggerListener.php";s:4:"line";i:37;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger";}s:90:"kernel.request.Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";s:6:"method";s:9:"configure";s:4:"file";s:128:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/DebugHandlersListener.php";s:4:"line";i:34;s:6:"pretty";s:75:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:123:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php";s:4:"line";i:78;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";}s:92:"kernel.request.Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:17;s:6:"pretty";s:77:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:123:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/FragmentListener.php";s:4:"line";i:57;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:1950;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:121:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/LocaleListener.php";s:4:"line";i:69;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";}s:72:"kernel.request.Symfony\Component\Security\Http\Firewall::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:2449;s:6:"pretty";s:57:"Symfony\Component\Security\Http\Firewall::onKernelRequest";}s:90:"kernel.request.Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:125:"/home/anton/Projects/News-Reader/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/EventListener/RequestListener.php";s:4:"line";i:23;s:6:"pretty";s:75:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";}s:102:"kernel.controller.Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:126:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/RouterDataCollector.php";s:4:"line";i:66;s:6:"pretty";s:84:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";}s:101:"kernel.controller.Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:127:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/RequestDataCollector.php";s:4:"line";i:276;s:6:"pretty";s:83:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";}s:105:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:5933;s:6:"pretty";s:87:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";}s:109:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:6004;s:6:"pretty";s:91:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";}s:104:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:6412;s:6:"pretty";s:86:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:6522;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:6328;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";}s:75:"kernel.response.Sonata\BlockBundle\Cache\HttpCacheHandler::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:41:"Sonata\BlockBundle\Cache\HttpCacheHandler";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:94:"/home/anton/Projects/News-Reader/vendor/sonata-project/block-bundle/Cache/HttpCacheHandler.php";s:4:"line";i:61;s:6:"pretty";s:59:"Sonata\BlockBundle\Cache\HttpCacheHandler::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:1881;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:123:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/ResponseListener.php";s:4:"line";i:28;s:6:"pretty";s:77:"Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";}s:100:"kernel.response.Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:6442;s:6:"pretty";s:84:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:123:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php";s:4:"line";i:90;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";}s:104:"kernel.response.Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:134:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/EventListener/WebDebugToolbarListener.php";s:4:"line";i:56;s:6:"pretty";s:88:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";}s:101:"kernel.response.Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:131:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/StreamedResponseListener.php";s:4:"line";i:32;s:6:"pretty";s:85:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:121:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/LocaleListener.php";s:4:"line";i:78;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:1944;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";}s:85:"kernel.finish_request.Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:2466;s:6:"pretty";s:63:"Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";}s:95:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:123:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php";s:4:"line";i:66;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";}s:96:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:124:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ExceptionListener.php";s:4:"line";i:40;s:6:"pretty";s:79:"Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";}}s:20:"not_called_listeners";a:5:{s:82:"kernel.terminate.Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";a:7:{s:5:"event";s:16:"kernel.terminate";s:4:"type";s:6:"Method";s:5:"class";s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";s:6:"method";s:8:"__invoke";s:4:"file";s:119:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php";s:4:"line";i:53;s:6:"pretty";s:65:"Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";}s:72:"console.command.Symfony\Bridge\Monolog\Handler\ConsoleHandler::onCommand";a:7:{s:5:"event";s:15:"console.command";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\ConsoleHandler";s:6:"method";s:9:"onCommand";s:4:"file";s:109:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/Handler/ConsoleHandler.php";s:4:"line";i:121;s:6:"pretty";s:56:"Symfony\Bridge\Monolog\Handler\ConsoleHandler::onCommand";}s:76:"console.terminate.Symfony\Bridge\Monolog\Handler\ConsoleHandler::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\ConsoleHandler";s:6:"method";s:11:"onTerminate";s:4:"file";s:109:"/home/anton/Projects/News-Reader/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/Handler/ConsoleHandler.php";s:4:"line";i:131;s:6:"pretty";s:58:"Symfony\Bridge\Monolog\Handler\ConsoleHandler::onTerminate";}s:97:"console.terminate.Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";s:6:"method";s:11:"onTerminate";s:4:"file";s:137:"/home/anton/Projects/News-Reader/vendor/symfony/swiftmailer-bundle/Symfony/Bundle/SwiftmailerBundle/EventListener/EmailSenderListener.php";s:4:"line";i:36;s:6:"pretty";s:79:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";}s:91:"kernel.view.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";a:7:{s:5:"event";s:11:"kernel.view";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:12:"onKernelView";s:4:"file";s:58:"/home/anton/Projects/News-Reader/app/cache/dev/classes.php";s:4:"line";i:6353;s:6:"pretty";s:79:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";}}}}s:6:"logger";C:62:"Symfony\Component\HttpKernel\DataCollector\LoggerDataCollector":17126:{a:5:{s:11:"error_count";i:1;s:17:"deprecation_count";i:0;s:12:"scream_count";i:0;s:10:"priorities";a:3:{i:100;a:2:{s:5:"count";i:60;s:4:"name";s:5:"DEBUG";}i:200;a:2:{s:5:"count";i:1;s:4:"name";s:4:"INFO";}i:500;a:2:{s:5:"count";i:1;s:4:"name";s:8:"CRITICAL";}}s:4:"logs";a:62:{i:0;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:174:"Matched route "all_articles_on_page" (parameters: "_controller": "App\GrabberBundle\Controller\ContentsController::allArticlesOnPageAction", "_route": "all_articles_on_page")";s:8:"priority";i:200;s:12:"priorityName";s:4:"INFO";s:7:"context";a:0:{}}i:1;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:2;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:3;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:4;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:5;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:6;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:7;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:8;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:9;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:10;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:11;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:12;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:13;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:14;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:15;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:16;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:136:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:17;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:18;a:5:{s:9:"timestamp";i:1406727064;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:19;a:5:{s:9:"timestamp";i:1406727066;s:7:"message";s:301:"SELECT t0.id AS id1, t0.subtopic AS subtopic2, t0.title AS title3, t0.date AS date4, t0.post AS post5, t0.thumbimg AS thumbimg6, t0.img_url AS img_url7, t0.author_name AS author_name8, t0.author_avatar_url AS author_avatar_url9, t0.author_category AS author_category10 FROM Contents t0 WHERE t0.id = ?";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:1:{i:0;s:32:"http://www.examiner.com/ar [...]";}}i:20;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:316:"Uncaught PHP Exception Symfony\Component\Debug\Exception\ContextErrorException: "Notice: Undefined index: posturl in /home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php line 336" at /home/anton/Projects/News-Reader/src/App/GrabberBundle/Controller/ContentsController.php line 336";s:8:"priority";i:500;s:12:"priorityName";s:8:"CRITICAL";s:7:"context";a:1:{s:9:"exception";s:63:"Object(Symfony\Component\Debug\Exception\ContextErrorException)";}}i:21;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:22;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:23;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:24;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:25;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:26;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:27;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:28;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:29;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:30;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:31;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:32;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:33;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:34;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:35;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:36;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:136:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:37;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:38;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:39;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:107:"Notified event "kernel.response" to listener "Sonata\BlockBundle\Cache\HttpCacheHandler::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:40;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:41;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:42;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:132:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:43;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:44;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:45;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:46;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:47;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:48;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:49;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:127:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:50;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:128:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:51;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:143:"Listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException" stopped propagation of the event "kernel.exception".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:52;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:107:"Notified event "kernel.response" to listener "Sonata\BlockBundle\Cache\HttpCacheHandler::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:53;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:54;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:55;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:132:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:56;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:57;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:58;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:59;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:60;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:61;a:5:{s:9:"timestamp";i:1406727067;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}}}}s:4:"time";C:60:"Symfony\Component\HttpKernel\DataCollector\TimeDataCollector":25222:{a:2:{s:10:"start_time";d:1406727064449.3621;s:6:"events";a:35:{s:11:"__section__";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3084;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3088;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3093;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:14:"kernel.request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:44;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:63:"Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:3:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3670016;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3670016;}i:2;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3670016;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3670016;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:4:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3670016;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2983;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2983;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:6815744;}i:2;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3081;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3082;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}i:3;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3088;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3093;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3670016;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3670016;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:44;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3079;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3079;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:44;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:44;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3079;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3079;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:40:"Symfony\Component\Security\Http\Firewall";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:44;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:44;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3079;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3079;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:44;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:44;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:23:"controller.get_callable";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:46;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:46;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"kernel.controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:47;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:47;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:47;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:47;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:47;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:47;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3081;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3081;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:47;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:47;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:10:"controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:47;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3081;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:24:"controller.get_arguments";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:49;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:49;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5505024;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:8:"doctrine";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1534;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1535;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:6291456;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"doctrine";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.exception";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2983;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3080;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2983;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3080;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"__section__.child";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2985;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3078;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:21:"kernel.finish_request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3079;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3079;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:15:"kernel.response";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3081;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3084;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:41:"Sonata\BlockBundle\Cache\HttpCacheHandler";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3081;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3081;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3081;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3081;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3081;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3081;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3082;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3084;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3084;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3084;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.terminate";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3088;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3093;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3088;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:3088;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8912896;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1406727064482.3;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}}}}s:6:"memory";C:62:"Symfony\Component\HttpKernel\DataCollector\MemoryDataCollector":62:{a:2:{s:6:"memory";i:11010048;s:12:"memory_limit";i:134217728;}}s:6:"router";C:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector":51:{a:3:{s:8:"redirect";b:0;s:3:"url";N;s:5:"route";N;}}s:4:"form";C:64:"Symfony\Component\Form\Extension\DataCollector\FormDataCollector":71:{a:3:{s:5:"forms";a:0:{}s:13:"forms_by_hash";a:0:{}s:9:"nb_errors";i:0;}}s:8:"security";C:65:"Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector":106:{a:5:{s:7:"enabled";b:1;s:13:"authenticated";b:0;s:11:"token_class";N;s:4:"user";s:0:"";s:5:"roles";a:0:{}}}s:11:"swiftmailer";C:67:"Symfony\Bundle\SwiftmailerBundle\DataCollector\MessageDataCollector":77:{a:3:{s:6:"mailer";a:0:{}s:12:"messageCount";i:0;s:13:"defaultMailer";s:0:"";}}s:2:"db";C:66:"Doctrine\Bundle\DoctrineBundle\DataCollector\DoctrineDataCollector":876:{a:5:{s:7:"queries";a:1:{s:7:"default";a:1:{i:1;a:5:{s:3:"sql";s:301:"SELECT t0.id AS id1, t0.subtopic AS subtopic2, t0.title AS title3, t0.date AS date4, t0.post AS post5, t0.thumbimg AS thumbimg6, t0.img_url AS img_url7, t0.author_name AS author_name8, t0.author_avatar_url AS author_avatar_url9, t0.author_category AS author_category10 FROM Contents t0 WHERE t0.id = ?";s:6:"params";a:1:{i:0;s:113:"http://www.examiner.com/article/mexican-makeover-for-pizza?cid=PROG-LeisureBlock1-Article-MexicanMakeoverForPizza";}s:5:"types";a:1:{i:0;i:2;}s:11:"executionMS";d:0.00054788589477539062;s:11:"explainable";b:1;}}}s:11:"connections";a:1:{s:7:"default";s:32:"doctrine.dbal.default_connection";}s:8:"managers";a:1:{s:7:"default";s:35:"doctrine.orm.default_entity_manager";}s:8:"entities";a:1:{s:7:"default";a:1:{i:0;s:33:"App\GrabberBundle\Entity\Contents";}}s:6:"errors";a:0:{}}}s:5:"block";C:60:"Sonata\BlockBundle\Profiler\DataCollector\BlockDataCollector":112:{a:4:{s:6:"blocks";a:1:{s:7:"_events";a:0:{}}s:10:"containers";a:0:{}s:10:"realBlocks";a:0:{}s:6:"events";a:0:{}}}}s:2:"ip";s:9:"127.0.0.1";s:6:"method";s:3:"GET";s:3:"url";s:69:"http://grabber/app_dev.php/contents/getarticles?topic=topic%2Fleisure";s:4:"time";i:1406727067;}

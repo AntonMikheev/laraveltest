@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title{% block title %}Welcome in Admin Area{% endblock %}</title>
+    {% block head_css %}
+
+        <link type="text/css" rel="stylesheet" href="{{ asset('bundles/appgrabber/css/admin.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ asset('bundles/appgrabber/css/bootstrap.css') }}">
+    {% endblock %}
+
+    {% block head_js %}
+        <script type="text/javascript" src="{{ asset('bundles/appgrabber/js/jquery-1.9.0.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/appgrabber/js/bootstrap.js') }}"></script>
+    {% endblock %}
+</head>
+<body>
+{% block header_search %}
+    <section>
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="{{ path('blog_admin_dashboard') }}">Grabber</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{ path('blog_admin_dashboard') }}">Dashboard</a></li>
+                        {#<li><a href="{{ path('admin_users') }}">Users</a></li>#}
+                        {#<li><a href="{{ path('admin_contents') }}">Contents</a></li>#}
+                        <li><a href="#">Contents</a></li>
+                        <li><a href="#">Navigations</a></li>
+                        <li><a href="#">Domains</a></li>
+                        <li><a href="#">Regulars</a></li>
+                        <li><a href="{{ path('app_admin_logout') }}">Logout</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </section>
+{% endblock %}
+<section>
+
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</section>
+
+
+{% block javascript %}
+   <script src="{{ asset('js/ckeditor/ckeditor.js') }}" type="text/javascript"></script>
+{% endblock %}
+
+</body>
+</html>

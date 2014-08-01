@@ -1,0 +1,42 @@
+services:
+    sonata.admin.post:
+        class: App\GrabberBundle\Admin\ContentsAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Content", label: "Content" }
+        arguments:
+            - ~
+            - App\GrabberBundle\Entity\Contents
+            - ~
+        calls:
+            - [ setTranslationDomain, [AppGrabberBundle]]
+    sonata.admin.contents:
+        class: App\GrabberBundle\Admin\DomainsAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Domain", label: "Domain" }
+        arguments:
+            - ~
+            - App\GrabberBundle\Entity\Domains
+            - ~
+        calls:
+            - [ setTranslationDomain, [AppGrabberBundle]]
+    sonata.admin.regulars:
+            class: App\GrabberBundle\Admin\RegularsAdmin
+            tags:
+                - { name: sonata.admin, manager_type: orm, group: "Regular", label: "Regular" }
+            arguments:
+                - ~
+                - App\GrabberBundle\Entity\Regulars
+                - ~
+            calls:
+                - [ setTranslationDomain, [AppGrabberBundle]]
+
+    sonata.admin.navigations:
+                class: App\GrabberBundle\Admin\NavigationsAdmin
+                tags:
+                    - { name: sonata.admin, manager_type: orm, group: "Navigation", label: "Navigation" }
+                arguments:
+                    - ~
+                    - App\GrabberBundle\Entity\Navigations
+                    - ~
+                calls:
+                    - [ setTranslationDomain, [AppGrabberBundle]]
